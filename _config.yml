@@ -1,11 +1,11 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
-disqus_shortname: stackproblems
+title: 谢金文的博客
+description: 一边工作，一边学习；写写代码，看看书，追追剧，走走世界！
+author: Jinwen Xie
+github: https://JinwenXie.github.io
+about: 一边工作，一边学习；写写代码，看看书，追追剧，走走世界！
+disqus_shortname: Gavin
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/mine.jpg
 
 enableTags: true
 tagarray: []
