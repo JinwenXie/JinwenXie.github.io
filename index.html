@@ -13,7 +13,7 @@ layout: default
   </ol>
   <p>
       {% for postsList in site.data.posts %}
-        <a href="{{ encodeURI(postsList.url) }}">{{ postsList.title }}</a>
+        <a href="{{ postsList.url }}">{{ postsList.title }}</a>
         {{ postsList }}
         {{ postsList.summary }}
       {% endfor %}
