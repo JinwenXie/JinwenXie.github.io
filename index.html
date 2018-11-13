@@ -11,10 +11,11 @@ layout: default
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
     {% endfor %}
   </ol>
-  <p style="display: none;">
-      {% for note in site.data.postList %}
-        {{ note }}
-        {{ note.summary }}
+  <p>
+      {% for postsList in site.data.posts %}
+        <a href="{{ encodeURI(postsList.url) }}">{{ postsList.title }}</a>
+        {{ postsList }}
+        {{ postsList.summary }}
       {% endfor %}
   </p>
   <!-- Pagination links -->
