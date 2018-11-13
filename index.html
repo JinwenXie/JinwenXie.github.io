@@ -12,8 +12,9 @@ layout: default
     {% endfor %}
   </ol>
   <p style="display: none;">
-      {% for proList in site.proList %}
-        {{ proList.url }}
+      {% for note in site.data.postList %}
+        {{ note }}
+        {{ note.summary }}
       {% endfor %}
   </p>
   <!-- Pagination links -->
