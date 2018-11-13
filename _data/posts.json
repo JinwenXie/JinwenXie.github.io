@@ -1,20 +1,38 @@
 [
 	{
-		"title": "为了自己自定义的列表",
-		"summary": "我勇敢的对自己github.io的主题进行修改",
-		"authorImage": "../static/img/mine.jpg",
-		"articleImage": "../static/img/mine.jpg",
-		"url": "https://jinwenxie.github.io/2018/11/12/markdownPad2的安装和使用.html",
+		"title": "markdownPad2的安装和使用",
+		"summary": "MarkdownPad 2是一款较不错的.md文件的编辑器，可快速将文本转换为美观的HTML/XHTML的网页格式代码，且操作方便，用户可以通过键盘快捷键和工具栏按钮来使用或者移除Markdown格式，左右栏的分割方式令用户可以实时看到 HTML 格式的 Markdown 文档。",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/markdownPad2.jpg",
+		"url": "https://jinwenxie.github.io/2018/11/012/markdownPad2的安装和使用.html",
 		"date": "2018-11-12",
 		"author": "Jinwen Xie"
 	},
 	{
-		"title": "1为了自己自定义的列表",
-		"summary": "1我勇敢的对自己github.io的主题进行修改",
-		"authorImage": "../static/img/mine.jpg",
-		"articleImage": "../static/img/mine.jpg",
-		"url": "https://jinwenxie.github.io/2018/11/12/markdownPad2的安装和使用.html",
-		"date": "2018-11-12",
+		"title": "小程序学习之页面传参",
+		"summary": "这是一篇专门用来记录学习以及开发小程序过程的文章",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/wxApp.png",
+		"url": "https://jinwenxie.github.io/2018/11/09/小程序学习之路.html",
+		"date": "2018-11-09",
+		"author": "Jinwen Xie"
+	},
+	{
+		"title": "vscode的安装和使用",
+		"summary": "之前的开发过程中一直用的是sublimeText3和webstorm，现在尝试使用下VS Code；本文介绍Vs Code的软件安装和一些插件的介绍",
+		"authorImage": "../static/img/posts/mine_2.jpg",
+		"articleImage": "../static/img/posts/vscode.jpg",
+		"url": "https://jinwenxie.github.io/2018/11/08/vscode的安装和使用.html",
+		"date": "2018-11-08",
+		"author": "Jinwen Xie"
+	},
+	{
+		"title": "使用Git过程中的一些问题",
+		"summary": "SSH Key的创建、github连接超时、Github.com无法访问等问题",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/git.png",
+		"url": "https://jinwenxie.github.io/2018/11/06/使用Git过程中的一些问题.html",
+		"date": "2018-11-06",
 		"author": "Jinwen Xie"
 	}
 	
