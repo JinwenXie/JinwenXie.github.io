@@ -278,8 +278,7 @@ div.col-sm-3 img.profile-avatar {
 }
 .main-layout footer {
   border-top: none;
-  border-bottom: 1px solid #F7F1F1;
   padding-bottom: 0;
-  margin-bottom: 10px;
+  margin-top: 50px;
   height: 50px;
 }
