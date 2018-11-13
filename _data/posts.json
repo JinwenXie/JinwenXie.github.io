@@ -5,7 +5,17 @@
 		"authorImage": "../static/img/mine.jpg",
 		"articleImage": "../static/img/mine.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/12/markdownPad2的安装和使用.html",
-		"date": "13 Nov 2014"
+		"date": "2018-11-12",
+		"author": "Jinwen Xie"
+	},
+	{
+		"title": "1为了自己自定义的列表",
+		"summary": "1我勇敢的对自己github.io的主题进行修改",
+		"authorImage": "../static/img/mine.jpg",
+		"articleImage": "../static/img/mine.jpg",
+		"url": "https://jinwenxie.github.io/2018/11/12/markdownPad2的安装和使用.html",
+		"date": "2018-11-12",
+		"author": "Jinwen Xie"
 	}
 	
 ]
