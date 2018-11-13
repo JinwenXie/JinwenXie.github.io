@@ -170,7 +170,7 @@ div.col-sm-3 img.profile-avatar {
   padding: 10px 0;
   margin-bottom: 10px;
   background-color: #fff;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #F7F1F1;
 }
 .xjw-blogs li a {
   display: block;
@@ -275,4 +275,11 @@ div.col-sm-3 img.profile-avatar {
   div.col-sm-3 {
     margin-top: 30px;
   }
+}
+.main-layout footer {
+  border-top: none;
+  border-bottom: 1px solid #F7F1F1;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+  height: 50px;
 }
