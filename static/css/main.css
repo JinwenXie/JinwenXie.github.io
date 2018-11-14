@@ -282,3 +282,42 @@ div.col-sm-3 img.profile-avatar {
   margin-top: 50px;
   height: 50px;
 }
+
+.main-layout #home h1  { 
+  display: inline-block;
+  background: linear-gradient(left, #f71605, #e0f513);
+  background: -webkit-linear-gradient(left, #f71605, #e0f513);
+  background: -o-linear-gradient(right, #f71605, #e0f513);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation:scratchy .8s linear forwards infinite;
+}  
+@keyframes  scratchy {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 60px 60px;
+  }
+  26% {
+    background-position: 120px -120px;
+  }
+  50% {
+    background-position: 180px -180px;
+  }
+  51% {
+    background-position: 240px -240px;
+  }
+  75% {
+    background-position: 300px -300px;
+  }
+  76% {
+    background-position: 360px -360px;
+  }
+  99% {
+    background-position: 420px -420px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
