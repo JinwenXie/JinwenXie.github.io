@@ -1,5 +1,14 @@
 [
 	{
+		"title": "我尤其想理清楚javaScript的执行机制",
+		"summary": "我看过很多关于JavaScript执行机制的资料，但是我总觉得自己不明觉厉，或者当下懂了，但是一段时间过后，往往又不知所以了；所以想用一篇文章来自己记录下。",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/javascript_zxjz.jpg",
+		"url": "https://jinwenxie.github.io/2018/11/14/javaScript执行机制.html",
+		"date": "2018-11-14",
+		"author": "Jinwen Xie"
+	},
+	{
 		"title": "markdownPad2的安装和使用",
 		"summary": "MarkdownPad 2是一款较不错的.md文件的编辑器，可快速将文本转换为美观的HTML/XHTML的网页格式代码，且操作方便，用户可以通过键盘快捷键和工具栏按钮来使用或者移除Markdown格式，左右栏的分割方式令用户可以实时看到 HTML 格式的 Markdown 文档。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
