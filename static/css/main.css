@@ -323,7 +323,7 @@ div.col-sm-3 img.profile-avatar {
 }
 
 .fixed-condition a img {
-  animation:tsImg 5s linear forwards infinite;
+  animation:tsImg 6s linear forwards infinite;
 }  
 @keyframes  tsImg {
   0% {
