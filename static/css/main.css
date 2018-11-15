@@ -321,3 +321,24 @@ div.col-sm-3 img.profile-avatar {
     background-position: 0 0;
   }
 }
+
+.fixed-condition a img {
+  animation:tsImg 5s linear forwards infinite;
+}  
+@keyframes  tsImg {
+  0% {
+    transform: rotate(0deg); 
+  }
+  25% {
+    transform: rotate(90deg); 
+  }
+  50% {
+    transform: rotate(180deg); 
+  }
+  75% {
+    transform: rotate(270deg); 
+  }
+  100% {
+    transform: rotate(360deg); 
+  }
+}
