@@ -1,9 +1,7 @@
 ---
 layout: page
-title: About
+title: 前端工程师----谢金文
 permalink: /about/
 ---
 
-I am freelance developer. Currently doing more in backend, focused in Python and Django.
-
-email: agus[at]python.web.id
+我现在不想介绍我自己，因为我今天心情不太好，我只想安安静静的待着！恩，这样其实也是在传播正能量，不折腾！
