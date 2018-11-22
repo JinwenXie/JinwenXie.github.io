@@ -25,4 +25,15 @@
 #### 让编辑器自动猜测文件编码
 *File-->Preferences-->Settings*<br>
 输入 *Auto Guess Encoding*查询， 然后勾选对应的√就好<br>
-![](https://i.imgur.com/h7mf5hp.png)
+![](https://i.imgur.com/h7mf5hp.png)<br>
+
+#### 语言设置
+ctrl+shift+p 调出搜索面板<br>
+Configore Display Language 搜索<br>
+选择后会打开 locale.json 文件<br>
+**"locale":"en" 更改为 "locale":"zh-CN"**<br>
+![](https://i.imgur.com/FYC2Gdq.png)<br>
+![](https://i.imgur.com/avHKkOD.png)<br>
+设置 zh-cn 关闭软件**重启**。<br>
+如果还不行的话，这个时候就需要安装个中文插件了<br>
+![](https://i.imgur.com/P21nGU0.png)
