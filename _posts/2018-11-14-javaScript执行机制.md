@@ -166,3 +166,8 @@ setInterval会每隔指定的时间将注册的函数置入任务队列，如果
 	})
 
 **输出为1，7，6，8，2，4，3，5，9，11，10，12**<br/>
+
+#### 参考资料：
+[https://www.jianshu.com/p/4516ad4b3048](https://www.jianshu.com/p/4516ad4b3048 "详解事件循环与任务队列")<br/>
+[https://juejin.im/post/59e85eebf265da430d571f89](https://juejin.im/post/59e85eebf265da430d571f89 "这一次，彻底弄懂 JavaScript 执行机制")<br/>
+[https://juejin.im/entry/5b0a124951882538bd55307c](https://juejin.im/entry/5b0a124951882538bd55307c "任务队列、事件循环与定时器")
