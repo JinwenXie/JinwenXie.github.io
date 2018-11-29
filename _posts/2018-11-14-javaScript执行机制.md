@@ -124,3 +124,44 @@ setTimeout用的地方多了，问题也出现了，有时候明明写的延时3
 我们知道setInterval其实是和setTimeout差不多一样的。只不过setTimeout执行一次，对于执行顺序来说，setInterval是循环执行的；<br/>
 setInterval会每隔指定的时间将注册的函数置入任务队列，如果前面的任务耗时太久，那么同样需要等待。<br/>
 唯一需要注意的一点是，对于setInterval(fn,ms)来说，我们已经知道不是每过ms秒会执行一次fn，而是每过ms秒，会有fn进入任务队列。一旦**setInterval的回调函数fn执行时间超过了延迟时间ms，那么就完全看不出来有时间间隔了**。<br/>
+
+这里有一段比较较复杂的代码，可以测试你是否掌握了js的执行机制：<br/>
+    console.log('1');
+				
+	setTimeout(function() {
+		console.log('2');
+		process.nextTick(function() {
+			console.log('3');
+		})
+		new Promise(function(resolve) {
+			console.log('4');
+			resolve();
+		}).then(function() {
+			console.log('5')
+		})
+	})
+
+	process.nextTick(function() {
+		console.log('6');
+	})
+	new Promise(function(resolve) {
+		console.log('7');
+		resolve();
+	}).then(function() {
+		console.log('8')
+	})
+
+	setTimeout(function() {
+		console.log('9');
+		process.nextTick(function() {
+			console.log('10');
+		})
+		new Promise(function(resolve) {
+			console.log('11');
+			resolve();
+		}).then(function() {
+			console.log('12')
+		})
+	})
+
+**输出为1，7，6，8，2，4，3，5，9，11，10，12**<br/>
