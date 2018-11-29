@@ -126,6 +126,7 @@ setInterval会每隔指定的时间将注册的函数置入任务队列，如果
 唯一需要注意的一点是，对于setInterval(fn,ms)来说，我们已经知道不是每过ms秒会执行一次fn，而是每过ms秒，会有fn进入任务队列。一旦**setInterval的回调函数fn执行时间超过了延迟时间ms，那么就完全看不出来有时间间隔了**。<br/>
 
 这里有一段比较较复杂的代码，可以测试你是否掌握了js的执行机制：<br/>
+
     console.log('1');
 				
 	setTimeout(function() {
