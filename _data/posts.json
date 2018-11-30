@@ -6,7 +6,7 @@
 		"articleImage": "../static/img/posts/dataType.png",
 		"url": "https://jinwenxie.github.io/2018/11/30/JavaScript数据类型.html",
 		"date": "2018-11-30",
-		"author": "Gavin"
+		"author": "Gavin(xiejinwen)"
 	},
 	{
 		"title": "我尤其想理清楚javaScript的执行机制",
@@ -15,7 +15,7 @@
 		"articleImage": "../static/img/posts/javascript_zxjz.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/14/javaScript执行机制.html",
 		"date": "2018-11-14",
-		"author": "Gavin"
+		"author": "Gavin(xiejinwen)"
 	},
 	{
 		"title": "markdownPad2的安装和使用",
@@ -24,7 +24,7 @@
 		"articleImage": "../static/img/posts/markdownPad2.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/12/markdownPad2的安装和使用.html",
 		"date": "2018-11-12",
-		"author": "Gavin"
+		"author": "Gavin(xiejinwen)"
 	},
 	{
 		"title": "小程序学习之页面传参",
@@ -33,7 +33,7 @@
 		"articleImage": "../static/img/posts/wxApp.png",
 		"url": "https://jinwenxie.github.io/2018/11/09/小程序学习之路.html",
 		"date": "2018-11-09",
-		"author": "Gavin"
+		"author": "Gavin(xiejinwen)"
 	},
 	{
 		"title": "vscode的安装和使用",
@@ -42,7 +42,7 @@
 		"articleImage": "../static/img/posts/vscode.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/08/vscode的安装和使用.html",
 		"date": "2018-11-08",
-		"author": "Gavin"
+		"author": "Gavin(xiejinwen)"
 	},
 	{
 		"title": "使用Git过程中的一些问题",
@@ -51,7 +51,7 @@
 		"articleImage": "../static/img/posts/git.png",
 		"url": "https://jinwenxie.github.io/2018/11/06/使用Git过程中的一些问题.html",
 		"date": "2018-11-06",
-		"author": "Jinwen Xie"
+		"author": "Gavin(xiejinwen)"
 	}
 	
 ]
