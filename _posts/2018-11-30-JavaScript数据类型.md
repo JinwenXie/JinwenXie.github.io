@@ -1,4 +1,3 @@
-## javascript数据类型
 **基本数据类型:** 是指非对象并且无方法的数据。在JavaScript中，共有6种基本数据类型：**string，number，boolean，null，undefined，symbol** (ECMAScript 2015新增)。<br/>
 **引用数据类型：**对象(Object)、数组(Array)、函数(Function)。<br/>
 
