@@ -61,6 +61,7 @@
 - 修改url<br>
 - 页面加载<br>
 - 用户交互<br>
+
 **微观任务(mircotask):**<br>
 - promise<br>
 - mutation.oberver<br>
@@ -87,10 +88,10 @@ ES6添加了微观任务队列之后在执行栈执行的过程中会把属于�
 3、Promise对象调用then方法，将这个任务推入Promise任务队列。<br>
 4、执行console.log(3)，输出3。<br>
 5、调用栈为空，读取任务队列，按照<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;读取所有微观任务队列 -> 执行 -><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;读取一个宏观任务队列 -> 执行 -><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;读取所有微观任务队列 -> 执行 -><br>
-再读取一个宏观任务队列...的顺序。<br>
+- 读取所有微观任务队列 -> 执行 -><br>
+- 读取一个宏观任务队列 -> 执行 -><br>
+- 读取所有微观任务队列 -> 执行 -><br>
+- 再读取一个宏观任务队列...的顺序。<br>
 6、读取所有微观任务队列中的任务，执行这些任务指定的回调函数。执行then指定的回调函数，输出5（微观任务队列也具有优先级）。<br>
 7、最后读取到setTimeout的任务，执行回调函数，输出4。<br>
 所以最后的输出顺序是1,2,3,5,4，而不是1,2,3,4,5。如果不清楚微观任务队列的执行机制，很容易将两个异步任务归为一类，将执行顺序判断错误。
@@ -168,6 +169,7 @@ setInterval会每隔指定的时间将注册的函数置入任务队列，如果
 **输出为1，7，6，8，2，4，3，5，9，11，10，12**<br/>
 
 #### 参考资料：
+![](https://i.imgur.com/YH4gYa7.jpg)<br/>
 [https://www.jianshu.com/p/4516ad4b3048](https://www.jianshu.com/p/4516ad4b3048 "详解事件循环与任务队列")<br/>
 [https://juejin.im/post/59e85eebf265da430d571f89](https://juejin.im/post/59e85eebf265da430d571f89 "这一次，彻底弄懂 JavaScript 执行机制")<br/>
 [https://juejin.im/entry/5b0a124951882538bd55307c](https://juejin.im/entry/5b0a124951882538bd55307c "任务队列、事件循环与定时器")
