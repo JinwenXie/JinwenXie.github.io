@@ -1,12 +1,21 @@
 [
 	{
+		"title": "JavaScript数据类型",
+		"summary": "越是基础的东西，就越是要理解吃透，不然后期总是容易吃亏；本文是介绍JavaScript的各种数据类型",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/dataType.png",
+		"url": "https://jinwenxie.github.io/2018/11/30/JavaScript数据类型.html",
+		"date": "2018-11-30",
+		"author": "Gavin"
+	},
+	{
 		"title": "我尤其想理清楚javaScript的执行机制",
 		"summary": "我看过很多关于JavaScript执行机制的资料，但是我总觉得自己不明觉厉，或者当下懂了，但是一段时间过后，往往又不知所以了；所以想用一篇文章来自己记录下。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/javascript_zxjz.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/14/javaScript执行机制.html",
 		"date": "2018-11-14",
-		"author": "Jinwen Xie"
+		"author": "Gavin"
 	},
 	{
 		"title": "markdownPad2的安装和使用",
@@ -15,7 +24,7 @@
 		"articleImage": "../static/img/posts/markdownPad2.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/12/markdownPad2的安装和使用.html",
 		"date": "2018-11-12",
-		"author": "Jinwen Xie"
+		"author": "Gavin"
 	},
 	{
 		"title": "小程序学习之页面传参",
@@ -24,7 +33,7 @@
 		"articleImage": "../static/img/posts/wxApp.png",
 		"url": "https://jinwenxie.github.io/2018/11/09/小程序学习之路.html",
 		"date": "2018-11-09",
-		"author": "Jinwen Xie"
+		"author": "Gavin"
 	},
 	{
 		"title": "vscode的安装和使用",
@@ -33,7 +42,7 @@
 		"articleImage": "../static/img/posts/vscode.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/08/vscode的安装和使用.html",
 		"date": "2018-11-08",
-		"author": "Jinwen Xie"
+		"author": "Gavin"
 	},
 	{
 		"title": "使用Git过程中的一些问题",
