@@ -193,5 +193,36 @@ JavaScript 中所有对象都继承自 Object 类型，每个对象都具有下�
     obj["name"] = "Gavin";  // 赋值
     let name = obj["name"]; // 访问
 
+### 总结： 
+**基本数据类型: 是指非对象并且无方法的数据。在JavaScript中，共有6种基本数据类型：string，number，boolean，null，undefined，symbol (ES6新增)。**<br/>
+**引用数据类型：对象(Object)。**<br/>
+
+#### 值得注意的是：<br/>
+1、 **值 undefined 实际上是从值 null 派生来的，因此 ECMAScript 把它们定义为相等的。
+undefined 是声明了变量但未对其初始化时赋予该变量的值，null 则用于表示尚未存在的对象。如果函数或方法要返回的是对象，那么找不到该对象时，返回的通常是 null。**<br/>
+
+    console.log(null == undefined);  // true
+
+2、**typeof null 结果是 "object"**，这是历史遗留 Bug<br/>
+
+    console.log(typeof null);  // object
+
+3、**Number 类型是 JavaScript 中最令人关注的数据类型，这种类型既可以表示 32 位的整数，还可以表示 64 位的浮点数。和其他编程语言不同，JavaScript 中的所有数字均用浮点数值表示**
+
+4、number类型中有一个特殊值： **NaN**<br>
+**任何涉及 NaN 的操作都返回 NaN。并且 NaN 与任何值都不相等（包括自身）**<br>
+
+    console.log(typeof NaN);            // "number"
+
+    console.log(0 / 0);                 // NaN
+    console.log(NaN - NaN);             // NaN
+
+    console.log(NaN === NaN);           // false
+
+出于这个原因，不推荐使用 NaN 值本身。**函数 isNaN()** 会做得相当好：<br>
+
+    console.log(isNaN("blue"));        // true
+    console.log(isNaN("666"));         // false
+
 最后附上一张JavaScript数据类型结构图：<br>
 ![](https://i.imgur.com/QQqfIKA.png)
