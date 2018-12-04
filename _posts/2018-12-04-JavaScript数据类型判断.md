@@ -1,8 +1,8 @@
 毫无疑问，JavaScript数据类型的判断在我们日常开发中是必不可免的，小到基本的数据类型，大到各种引用数据类型，都是需要我们掌握的知识点；现在就记录下自己对于JavaScript各种数据类型的检测方法；<br>
 
-我们都知道找JavaScript中，共有6种基本数据类型：**string，number，boolean，null，undefined，symbol **(ES6引入的第6种原始类)。而引用**类型只有一种对象(Object)**。实际上，Object 中还包含了其它更为具体的引用类型，如 Array、Function、Date、RegExp、Error、Arguments 等。<br>
+我们都知道找JavaScript中，共有6种基本数据类型：**string，number，boolean，null，undefined，symbol (ES6引入的第6种原始类)。而引用类型只有一种对象(Object)**。实际上，Object 中还包含了其它更为具体的引用类型，如 Array、Function、Date、RegExp、Error、Arguments 等。<br>
 
-通常用来检测数据类型的方法，分别是** typeof** 和 **Object.prototype.toString**，让我们仔细来看看这两个方法。<br>
+通常用来检测数据类型的方法，分别是** typeof 和 Object.prototype.toString**，让我们仔细来看看这两个方法。<br>
 
 ### typeof
 **typeof 操作符返回一个字符串，表示未经计算的操作数的类型。**<br>
