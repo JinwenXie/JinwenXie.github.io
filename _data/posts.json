@@ -1,5 +1,14 @@
 [
 	{
+		"title": "JavaScript数据类型判断",
+		"summary": "毫无疑问，JavaScript数据类型的判断在我们日常开发中是必不可免的，小到基本的数据类型，大到各种引用数据类型，都是需要我们掌握的知识点；现在就记录下自己对于JavaScript各种数据类型的检测方。",
+		"authorImage": "../static/img/posts/mine_3.png",
+		"articleImage": "../static/img/posts/dataTypeJudge.png",
+		"url": "https://jinwenxie.github.io/2018/12/04/JavaScript数据类型判断.html",
+		"date": "2018-12-04",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "JavaScript数据类型",
 		"summary": "越是基础的东西，就越是要理解吃透，不然后期总是容易吃亏；本文是介绍JavaScript的各种数据类型",
 		"authorImage": "../static/img/posts/mine_3.png",
