@@ -1,5 +1,14 @@
 [
 	{
+		"title": "CSS日常笔记",
+		"summary": "在工作的时候总是会遇到一些效果，自己并不会一下就写的出来，需要查阅下资料才行。用这篇文章来记录以后在工作中遇到的一些CSS常见效果",
+		"authorImage": "../static/img/posts/mine_2.png",
+		"articleImage": "../static/img/posts/css.png",
+		"url": "https://jinwenxie.github.io/2018/12/10/CSS日常笔记.html",
+		"date": "2018-12-10",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "JavaScript等号==VS===",
 		"summary": "Javascript中用于相等比较的操作符有两个==和===。==我们通常称为“等于”，而===我们通常称为“严格等于”。",
 		"authorImage": "../static/img/posts/mine_2.png",
