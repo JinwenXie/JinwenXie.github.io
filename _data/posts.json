@@ -29,8 +29,7 @@
 	{
 		"title": "JavaScript等号==VS===",
 		"summary": "Javascript中用于相等比较的操作符有两个==和===。==我们通常称为“等于”，而===我们通常称为“严格等于”。",
-		"authorImage": "../static/img/posts/mine_2.jpg
-		",
+		"authorImage": "../static/img/posts/mine_2.jpg",
 		"articleImage": "../static/img/posts/js.png",
 		"url": "https://jinwenxie.github.io/2018/12/10/JavaScript等号==VS===.html",
 		"date": "2018-12-10",
