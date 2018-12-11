@@ -1,5 +1,23 @@
 [
 	{
+		"title": "使用webpack创建vue项目",
+		"summary": "在webpack的安装以及创建一个vue项目过程中的一些小问题",
+		"authorImage": "../static/img/posts/mine_2.jpg",
+		"articleImage": "../static/img/vue/vue.png",
+		"url": "https://jinwenxie.github.io/2018/12/11/使用webpack创建vue项目.html",
+		"date": "2018-12-11",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
+		"title": "NodeJs以及cnpm安装",
+		"summary": "记录一下自己安装和配置NodeJs、cnpm的过程，以备后边自己更换电脑的时候参考",
+		"authorImage": "../static/img/posts/mine_2.jpg",
+		"articleImage": "../static/img/nodejs/nodejs.png",
+		"url": "https://jinwenxie.github.io/2018/12/11/NodeJs以及cnpm安装.html",
+		"date": "2018-12-11",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "CSS日常笔记",
 		"summary": "在工作的时候总是会遇到一些效果，自己并不会一下就写的出来，需要查阅下资料才行。用这篇文章来记录以后在工作中遇到的一些CSS常见效果",
 		"authorImage": "../static/img/posts/mine_2.jpg",
