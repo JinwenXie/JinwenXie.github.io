@@ -1,5 +1,14 @@
 [
 	{
+		"title": "JavaScript生成随机数",
+		"summary": "记录JavaScript生成随机数生成随机数的方法以及原理",
+		"authorImage": "../static/img/posts/mine_3.jpg",
+		"articleImage": "../static/img/random.png",
+		"url": "https://jinwenxie.github.io/2018/12/19/JavaScript生成随机数.html",
+		"date": "2018-12-19",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "为小程序请求豆瓣接口配置Nginx",
 		"summary": "通过豆瓣api可以获取很多电影、书籍等的数据信息。但是豆瓣设置了小程序的访问权限，在小程序上直接使用豆瓣api是会报错的；所以使用Nginx来做代理，从而请求到豆瓣的api数据",
 		"authorImage": "../static/img/posts/mine_2.jpg",
