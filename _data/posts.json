@@ -101,7 +101,7 @@
 	{
 		"title": "vscode的安装和使用",
 		"summary": "之前的开发过程中一直用的是sublimeText3和webstorm，现在尝试使用下VS Code；本文介绍Vs Code的软件安装和一些插件的介绍",
-		"authorImage": "../static/img/posts/mine_2.jpg",
+		"authorImage": "../static/img/posts/mine_3.png",
 		"articleImage": "../static/img/posts/vscode.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/08/vscode的安装和使用.html",
 		"date": "2018-11-08",
@@ -110,7 +110,7 @@
 	{
 		"title": "使用Git过程中的一些问题",
 		"summary": "SSH Key的创建、github连接超时、Github.com无法访问等问题",
-		"authorImage": "../static/img/posts/mine_3.png",
+		"authorImage": "../static/img/posts/mine_2.jpg",
 		"articleImage": "../static/img/posts/git.png",
 		"url": "https://jinwenxie.github.io/2018/11/06/使用Git过程中的一些问题.html",
 		"date": "2018-11-06",
