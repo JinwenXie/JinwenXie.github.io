@@ -11,7 +11,7 @@
 	{
 		"title": "为小程序请求豆瓣接口配置Nginx",
 		"summary": "通过豆瓣api可以获取很多电影、书籍等的数据信息。但是豆瓣设置了小程序的访问权限，在小程序上直接使用豆瓣api是会报错的；所以使用Nginx来做代理，从而请求到豆瓣的api数据",
-		"authorImage": "../static/img/posts/mine_2.jpg",
+		"authorImage": "../static/img/posts/mine_3.jpg",
 		"articleImage": "../static/img/nginx/nginx.png",
 		"url": "https://jinwenxie.github.io/2018/12/14/为小程序请求豆瓣接口配置Nginx.html",
 		"date": "2018-12-14",
@@ -38,7 +38,7 @@
 	{
 		"title": "CSS日常笔记",
 		"summary": "在工作的时候总是会遇到一些效果，自己并不会一下就写的出来，需要查阅下资料才行。用这篇文章来记录以后在工作中遇到的一些CSS常见效果",
-		"authorImage": "../static/img/posts/mine_2.jpg",
+		"authorImage": "../static/img/posts/mine_3.jpg",
 		"articleImage": "../static/img/posts/css.png",
 		"url": "https://jinwenxie.github.io/2018/12/10/CSS日常笔记.html",
 		"date": "2018-12-10",
