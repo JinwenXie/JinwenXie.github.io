@@ -1,10 +1,8 @@
 body {
-  font-family: "Roboto Condensed", Arial, sans-serif;
-  background: url("/static/img/subtle_dots.png");
-  line-height: 1.5em;
-  font-weight: 300;
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
   font-size: 14px;
-  color: #666;
+  line-height: 1.6;
+  color: #333;
 }
 hr {
   margin-top: 20px;
@@ -66,7 +64,13 @@ div.content pre {
   border: none;
 }
 div.content .highlight {
-	background: #333333;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
 }
 footer {
   border-top: 1px solid #F7F1F1;
