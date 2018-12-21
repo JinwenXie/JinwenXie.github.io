@@ -1,10 +1,10 @@
 [
 	{
-		"title": "理解JavaScript中的this、call、apply和 bind",
+		"title": "理解JavaScript中的this、call、apply和bind",
 		"summary": "JavaScript 中最容易被误解的一点就是this关键字。在这篇文章中，你将会了解四种规则，弄清楚 this 关键字指的是什么。隐式绑定、显式绑定、new 绑定和 window 绑定。在介绍这些技术时，你还将学习一些 JavaScript 其他令人困惑的部分，例如 .call、.apply、.bind和 new 关键字。",
 		"authorImage": "../static/img/posts/mine_3.jpg",
 		"articleImage": "../static/img/posts/js_1.png",
-		"url": "https://jinwenxie.github.io/2018/12/21/理解JavaScript中的this、call、apply和 bind.html",
+		"url": "https://jinwenxie.github.io/2018/12/21/理解JavaScript中的this、call、apply和bind.html",
 		"date": "2018-12-21",
 		"author": "Gavin(xiejinwen)"
 	},
