@@ -1,10 +1,9 @@
 body {
-  font-family: "Roboto Condensed", Arial, sans-serif;
-  background: url("/static/img/subtle_dots.png");
-  line-height: 1.5em;
-  font-weight: 300;
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
   font-size: 14px;
-  color: #666;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
 }
 hr {
   margin-top: 20px;
