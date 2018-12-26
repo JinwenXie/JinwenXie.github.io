@@ -14,3 +14,17 @@
 - **toString()**方法返回由数组中每个值的字符串形式拼接并且以逗号相隔的字符串
 - **valueOf()** 方法返回 Array 对象的原始值。该原始值由 Array 对象派生的所有对象继承。通常由 JavaScript 在后台自动调用，并不显式地出现在代码中。
 - **toLocaleString()**方法也会返回一个数组值以逗号相隔的字符串，但与toString()方法不同的是在返回日期对象时格式不同。
+
+具体看一下列子：
+
+    const names = ["Jinwen", "xiejinwen","Gavin"];
+
+    console.log(names.toString());          // Jinwen,xiejinwen,Gavin
+    console.log(names.valueOf());           // ["Jinwen", "xiejinwen", "Gavin"]
+    console.log(names.toLocaleString());    // Jinwen,xiejinwen,Gavin
+
+    // toLocaleString()方法在返回日期对象时格式不同
+    const date = new Date();
+
+    console.log(date.toString());           // Wed Dec 26 2018 16:34:23 GMT+0800 (中国标准时间)
+    console.log(date.toLocaleString());     // 2018/12/26 下午4:34:23
