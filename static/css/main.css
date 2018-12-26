@@ -58,14 +58,14 @@ a:hover {
 div.content pre {
   background: #333333;
   padding: 10px;
-  color: #FFF;
+  color: #333;
   overflow-x: auto;
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 12px;
   border: none;
 }
 div.content .highlight {
-	background: #333333;
+	background: #eee;
 }
 footer {
   border-top: 1px solid #F7F1F1;
