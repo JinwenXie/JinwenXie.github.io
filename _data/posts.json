@@ -1,5 +1,14 @@
 [
 	{
+		"title": "JavaScript数组方法总结",
+		"summary": "转换方法—toLocaleString()方法、toString()方法、valueOf()方法、栈方法——push()方法、pop()方法、队列方法——shift()方法、unshift()方法、重排序方法——reverse()方法、sort()方法、操作方法——concat()方法、slice()方法、splice()方法、位置方法——indexOf()方法、lastIndexOf()方法、迭代方法——every()方法、filter()方法、forEach()方法、map()方法、some()方法、归并方法——reduce()方法、reduceRight()方法",
+		"authorImage": "../static/img/posts/mine_3.jpg",
+		"articleImage": "../static/img/posts/array.png",
+		"url": "https://jinwenxie.github.io/2018/12/26/JavaScript数组方法总结.html",
+		"date": "2018-12-26",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "理解JavaScript中的this、call、apply和bind",
 		"summary": "JavaScript 中最容易被误解的一点就是this关键字。在这篇文章中，你将会了解四种规则，弄清楚 this 关键字指的是什么。隐式绑定、显式绑定、new 绑定和 window 绑定。在介绍这些技术时，你还将学习一些 JavaScript 其他令人困惑的部分，例如 .call、.apply、.bind和 new 关键字。",
 		"authorImage": "../static/img/posts/mine_3.jpg",
