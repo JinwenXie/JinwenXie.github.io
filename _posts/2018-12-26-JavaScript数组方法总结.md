@@ -45,3 +45,22 @@
     console.log(names);                     // ["Jinwen", "xiejinwen", "Gavin"]
     console.log("count: " + namesCount);    // count: 3
     console.log(names.pop());               // Gavin    
+
+
+#### 队列方法：
+
+- **shift()**方法移除数组的第一项并返回该项
+- **unshift()**方法在数组前端添加任意项，并返回新数组的长度
+
+具体看一下例子：
+
+const names = ["Jinwen", "xiejinwen"];
+const name = "Gavin";
+const namesCount = names.unshift(name);
+
+console.log(names);                         // ["Gavin", "Jinwen", "xiejinwen"]
+console.log("count: " + namesCount);        // count: 3
+console.log(names.shift());                 // Gavin   
+
+
+**由栈方法跟队列方法可知，在这两种方法中添加数组项的方法返回新数组的长度，移除数组项的方法返回被移除项**
