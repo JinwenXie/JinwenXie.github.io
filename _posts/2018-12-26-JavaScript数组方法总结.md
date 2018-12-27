@@ -64,3 +64,29 @@ console.log(names.shift());                 // Gavin
 
 
 **由栈方法跟队列方法可知，在这两种方法中添加数组项的方法返回新数组的长度，移除数组项的方法返回被移除项**
+
+
+#### 重排序方法:
+
+- **reverse()方法** 用于反向列表中元素,没有返回值，但是会对列表的元素进行反向排序。
+- **sort()方法** 用于对数组的元素进行排序, 改方法接收一个函数作为参数，如果没有参数的话**按照字符编码的顺序进行排序**;
+
+具体看下例子：
+
+    const names = ["Jinwen", "Gavin", "xiejinwen"];
+    const nums = [3, 4, 8, 9, 7, 6, 20, 1, 5];
+
+    console.log(names.reverse());                       // ["xiejinwen", "Gavin", "Jinwen"]
+    console.log(nums.reverse());                        // [5, 1, 2, 6, 7, 9, 8, 4, 3]
+
+    console.log(names.sort());                          // ["Gavin", "xiejinwen", "Jinwen"]
+    console.log(nums.sort());                           // [1, 20, 3, 4, 5, 6, 7, 8, 9]
+
+    // 由上面输出，很明显nums数组的排序并不正确，这是因为sort()方法如果没有传入参数，是按字符编码的顺序进行排序的；
+    // 这时我们传入一个函数试试
+
+    const sortNums = function(a,b){
+        return a - b;
+    }
+    console.log(nums.sort(sortNums));                   // [1, 3, 4, 5, 6, 7, 8, 9, 20]
+
