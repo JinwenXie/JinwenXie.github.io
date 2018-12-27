@@ -28,3 +28,20 @@
 
     console.log(date.toString());           // Wed Dec 26 2018 16:34:23 GMT+0800 (中国标准时间)
     console.log(date.toLocaleString());     // 2018/12/26 下午4:34:23
+
+
+#### 栈方法：
+
+- **push()**方法可以接受任意数量的参数，逐个添加到数组末尾，返回修改后数组的长度
+- **pop()**方法从数组末尾移除最后一项，返回被移除的项
+
+具体看下面例子：
+
+    const names = ["Jinwen"];
+    const name_1 = "xiejinwen";
+    const name_2 = "Gavin";
+    const namesCount = names.push(name_1, name_2);
+    
+    console.log(names);                     // ["Jinwen", "xiejinwen", "Gavin"]
+    console.log("count: " + namesCount);    // count: 3
+    console.log(names.pop());               // Gavin    
