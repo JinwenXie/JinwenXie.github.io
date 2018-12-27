@@ -90,3 +90,35 @@ console.log(names.shift());                 // Gavin
     }
     console.log(nums.sort(sortNums));                   // [1, 3, 4, 5, 6, 7, 8, 9, 20]
 
+
+####操作方法：
+
+- **concat()方法** 用于连接两个或多个数组。返回一个新的数组。该数组是通过把所有参数添加到数组中生成的。如果要进行 concat() 操作的参数是数组，那么添加的是数组中的元素，而不是数组。
+- **slice()方法** 可从已有的数组中返回选定的元素。arrayObject.slice(start,end)返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。
+- **splice()方法** 从数组中删除项目或向数组中添加元素。该方法会改变原始数组。
+
+具体看下例子
+
+	// concat()
+	
+	const names = ["Jinwen"];
+	const name_1 = ["Gavin"];
+	const name_2 = ["xiejinwen"];
+	
+	console.log(names.concat("xjw"));                   // ["Jinwen", "xjw"]
+	console.log(names.concat(name_1));                  // ["Jinwen", "Gavin"]
+	console.log(names.concat("xjw",name_1,name_2));     // ["Jinwen", "xjw", "Gavin", "xiejinwen"]
+
+<br>
+
+    // slice(start,end)
+    // start必需。规定从何处开始选取。如果是负数，那么它规定从数组尾部开始算起的位置。也就是说，-1 指最后一个元素，-2 指倒数第二个元素，以此类推。
+    // end可选。规定从何处结束选取。该参数是数组片断结束处的数组下标。如果没有指定该参数，那么切分的数组包含从 start 到数组结束的所有元素。如果这个参数是负数，那么它规定的是从数组尾部开始算起的元素。
+
+    const names = ["Jinwen", "xjw", "Gavin", "xiejinwen"];
+
+    console.log(names.slice(2));        // ["Gavin", "xiejinwen"]
+    console.log(names.slice(-1));       // ["xiejinwen"]
+    console.log(names.slice(0,2));      // ["Jinwen", "xjw"]
+    console.log(names.slice(0,-1));     // ["Jinwen", "xjw", "Gavin"]
+
