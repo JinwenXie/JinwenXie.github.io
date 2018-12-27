@@ -143,3 +143,27 @@ console.log(names.shift());                 // Gavin
     names.splice(4,1,"xjw");
     console.log(names);                         // ["Jinwen1", "Jinwen2", "Jinwen", "Gavin", "xjw"]
 
+
+#### 位置方法:
+
+- **indexOf()方法** 从开头（索引为0）的位置往后查找数组元素的位置，返回数组元素的索引或-1
+- **lastIndexOf()方法** 从末尾开始向前查找数组元素的位置，返回数组元素的索引或-1
+
+具体看下列例子：
+                          
+    // indexOf()方法跟lastIndexOf()方法都接受两个参数，要查找的项跟从数组什么位置查起
+    // 在比较第一个参数与数组中的每一项时是使用全等操作符进行严格比较的，若没有找到则返回-1。
+
+    const names = ["Jinwen", "Gavin", "xiejinwen", "xjw"];
+
+    console.log(names.indexOf("Gavin"));                // 1
+    console.log(names.indexOf("zhangsan"));             // -1
+    console.log(names.indexOf("Gavin",0))               // 1
+    console.log(names.indexOf("Gavin",3))               // -1
+
+    console.log(names.lastIndexOf("Gavin"));                // 1
+    console.log(names.lastIndexOf("zhangsan"));             // -1
+    console.log(names.lastIndexOf("Gavin",0))               // -1
+    console.log(names.lastIndexOf("Gavin",3))               // 1
+
+
