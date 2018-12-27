@@ -95,7 +95,7 @@ console.log(names.shift());                 // Gavin
 
 - **concat()方法** 用于连接两个或多个数组。返回一个新的数组。该数组是通过把所有参数添加到数组中生成的。如果要进行 concat() 操作的参数是数组，那么添加的是数组中的元素，而不是数组。
 - **slice()方法** 可从已有的数组中返回选定的元素。arrayObject.slice(start,end)返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。
-- **splice()方法** 从数组中删除项目或向数组中添加元素。该方法会改变原始数组。
+- **splice()方法** 从数组中删除项目或向数组中添加元素。**该方法会改变原始数组。**
 
 具体看下例子
 
@@ -121,4 +121,25 @@ console.log(names.shift());                 // Gavin
     console.log(names.slice(-1));       // ["xiejinwen"]
     console.log(names.slice(0,2));      // ["Jinwen", "xjw"]
     console.log(names.slice(0,-1));     // ["Jinwen", "xjw", "Gavin"]
+<br>
+
+	// .splice(index,howmany,item1,.....,itemX)
+    // index	必需。整数，规定添加/删除项目的位置，使用负数可从数组结尾处规定位置。
+    // howmany	必需。要删除的项目数量。如果设置为 0，则不会删除项目。
+    // item1, ..., itemX	可选。向数组添加的新项目。
+
+    const names = ["Jinwen", "Gavin", "xiejinwen"];
+
+    // 删除
+    console.log(names.splice(0,1));             // ["Jinwen"]
+    console.log(names);                         // ["Gavin", "xiejinwen"]
+    // 添加
+    names.splice(0,0,"Jinwen");
+    console.log(names);                         // ["Jinwen", "Gavin", "xiejinwen"]
+    // 添加多个
+    names.splice(0,0,"Jinwen1", "Jinwen2");     // ["Jinwen1", "Jinwen2", "Jinwen", "Gavin", "xiejinwen"]
+    console.log(names);
+    // 替换
+    names.splice(4,1,"xjw");
+    console.log(names);                         // ["Jinwen1", "Jinwen2", "Jinwen", "Gavin", "xjw"]
 
