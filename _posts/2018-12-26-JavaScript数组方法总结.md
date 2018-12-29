@@ -224,6 +224,13 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 	});
 	console.log(nums);      // [1, 2, 3, 4, 5]
 	console.log(result);    // true
-![](https://i.imgur.com/HiNL5CX.png)
+![](https://i.imgur.com/HiNL5CX.png)<br>
+
+
+
+
+
+###### 最后附上一张迭代方法图
+![](https://i.imgur.com/iFKukeD.png)
 
 
