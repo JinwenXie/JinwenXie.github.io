@@ -17,7 +17,7 @@
 
 具体看一下列子：
 
-    const names = ["Jinwen", "xiejinwen","Gavin"];
+    let names = ["Jinwen", "xiejinwen","Gavin"];
 
     console.log(names.toString());          // Jinwen,xiejinwen,Gavin
     console.log(names.valueOf());           // ["Jinwen", "xiejinwen", "Gavin"]
@@ -37,10 +37,10 @@
 
 具体看下面例子：
 
-    const names = ["Jinwen"];
-    const name_1 = "xiejinwen";
-    const name_2 = "Gavin";
-    const namesCount = names.push(name_1, name_2);
+    let names = ["Jinwen"];
+    let name_1 = "xiejinwen";
+    let name_2 = "Gavin";
+    let namesCount = names.push(name_1, name_2);
     
     console.log(names);                     // ["Jinwen", "xiejinwen", "Gavin"]
     console.log("count: " + namesCount);    // count: 3
@@ -54,13 +54,13 @@
 
 具体看一下例子：
 
-const names = ["Jinwen", "xiejinwen"];
-const name = "Gavin";
-const namesCount = names.unshift(name);
-
-console.log(names);                         // ["Gavin", "Jinwen", "xiejinwen"]
-console.log("count: " + namesCount);        // count: 3
-console.log(names.shift());                 // Gavin   
+	let names = ["Jinwen", "xiejinwen"];
+	let name = "Gavin";
+	let namesCount = names.unshift(name);
+	
+	console.log(names);                         // ["Gavin", "Jinwen", "xiejinwen"]
+	console.log("count: " + namesCount);        // count: 3
+	console.log(names.shift());                 // Gavin   
 
 
 **由栈方法跟队列方法可知，在这两种方法中添加数组项的方法返回新数组的长度，移除数组项的方法返回被移除项**
@@ -73,8 +73,8 @@ console.log(names.shift());                 // Gavin
 
 具体看下例子：
 
-    const names = ["Jinwen", "Gavin", "xiejinwen"];
-    const nums = [3, 4, 8, 9, 7, 6, 20, 1, 5];
+    let names = ["Jinwen", "Gavin", "xiejinwen"];
+    let nums = [3, 4, 8, 9, 7, 6, 20, 1, 5];
 
     console.log(names.reverse());                       // ["xiejinwen", "Gavin", "Jinwen"]
     console.log(nums.reverse());                        // [5, 1, 2, 6, 7, 9, 8, 4, 3]
@@ -85,7 +85,7 @@ console.log(names.shift());                 // Gavin
     // 由上面输出，很明显nums数组的排序并不正确，这是因为sort()方法如果没有传入参数，是按字符编码的顺序进行排序的；
     // 这时我们传入一个函数试试
 
-    const sortNums = function(a,b){
+    let sortNums = function(a,b){
         return a - b;
     }
     console.log(nums.sort(sortNums));                   // [1, 3, 4, 5, 6, 7, 8, 9, 20]
@@ -101,9 +101,9 @@ console.log(names.shift());                 // Gavin
 
 	// concat()
 	
-	const names = ["Jinwen"];
-	const name_1 = ["Gavin"];
-	const name_2 = ["xiejinwen"];
+	let names = ["Jinwen"];
+	let name_1 = ["Gavin"];
+	let name_2 = ["xiejinwen"];
 	
 	console.log(names.concat("xjw"));                   // ["Jinwen", "xjw"]
 	console.log(names.concat(name_1));                  // ["Jinwen", "Gavin"]
@@ -115,7 +115,7 @@ console.log(names.shift());                 // Gavin
     // start必需。规定从何处开始选取。如果是负数，那么它规定从数组尾部开始算起的位置。也就是说，-1 指最后一个元素，-2 指倒数第二个元素，以此类推。
     // end可选。规定从何处结束选取。该参数是数组片断结束处的数组下标。如果没有指定该参数，那么切分的数组包含从 start 到数组结束的所有元素。如果这个参数是负数，那么它规定的是从数组尾部开始算起的元素。
 
-    const names = ["Jinwen", "xjw", "Gavin", "xiejinwen"];
+    let names = ["Jinwen", "xjw", "Gavin", "xiejinwen"];
 
     console.log(names.slice(2));        // ["Gavin", "xiejinwen"]
     console.log(names.slice(-1));       // ["xiejinwen"]
@@ -154,7 +154,7 @@ console.log(names.shift());                 // Gavin
     // indexOf()方法跟lastIndexOf()方法都接受两个参数，要查找的项跟从数组什么位置查起
     // 在比较第一个参数与数组中的每一项时是使用全等操作符进行严格比较的，若没有找到则返回-1。
 
-    const names = ["Jinwen", "Gavin", "xiejinwen", "xjw"];
+    let names = ["Jinwen", "Gavin", "xiejinwen", "xjw"];
 
     console.log(names.indexOf("Gavin"));                // 1
     console.log(names.indexOf("zhangsan"));             // -1
