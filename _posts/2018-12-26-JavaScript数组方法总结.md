@@ -194,6 +194,16 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 	});
 	console.log(nums);      // [1, 2, 3, 4, 5]
 	console.log(newNums);   // [2, 4, 6, 8, 10]
-![](https://i.imgur.com/9AJmTlz.png)
+![](https://i.imgur.com/9AJmTlz.png)<br>
+
+	// filter()方法筛选出数组中符合条件的项组成新数组
+	let nums = [1, 2, 3, 4, 5];
+	
+	let newNums = nums.filter(function(item,index){
+	    return item>3;
+	});
+	console.log(nums);      // [1, 2, 3, 4, 5]
+	console.log(newNums);   // [4, 5]
+![](https://i.imgur.com/aKb5ZbQ.png)
 
 
