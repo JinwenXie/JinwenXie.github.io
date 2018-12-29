@@ -204,6 +204,16 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 	});
 	console.log(nums);      // [1, 2, 3, 4, 5]
 	console.log(newNums);   // [4, 5]
-![](https://i.imgur.com/aKb5ZbQ.png)
+![](https://i.imgur.com/aKb5ZbQ.png)<br>
+
+	// every()方法检测数组中的每一项是否符合条件，全部满足才返回true，否则为false
+	let nums = [1, 2, 3, 4, 5];
+	
+	let result = nums.every(function(item,index){
+	    return item>0;
+	});
+	console.log(nums);      // [1, 2, 3, 4, 5]
+	console.log(result);    // true
+![](https://i.imgur.com/aVf7gnm.png)
 
 
