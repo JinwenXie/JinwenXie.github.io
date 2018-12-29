@@ -194,6 +194,7 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 	});
 	console.log(nums);      // [1, 2, 3, 4, 5]
 	console.log(newNums);   // [2, 4, 6, 8, 10]
+
 ![](https://i.imgur.com/9AJmTlz.png)<br>
 
 	// filter()方法筛选出数组中符合条件的项组成新数组
@@ -204,6 +205,7 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 	});
 	console.log(nums);      // [1, 2, 3, 4, 5]
 	console.log(newNums);   // [4, 5]
+
 ![](https://i.imgur.com/aKb5ZbQ.png)<br>
 
 	// every()方法检测数组中的每一项是否符合条件，全部满足才返回true，否则为false
@@ -214,6 +216,7 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 	});
 	console.log(nums);      // [1, 2, 3, 4, 5]
 	console.log(result);    // true
+
 ![](https://i.imgur.com/aVf7gnm.png)<br>
 
 	// some()方法检测数组中是否有某些项符合条件，只要有一项满足即为true
@@ -224,6 +227,7 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 	});
 	console.log(nums);      // [1, 2, 3, 4, 5]
 	console.log(result);    // true
+
 ![](https://i.imgur.com/HiNL5CX.png)<br>
 
 
