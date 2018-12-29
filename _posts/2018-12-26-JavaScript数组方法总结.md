@@ -166,4 +166,24 @@
     console.log(names.lastIndexOf("Gavin",0))               // -1
     console.log(names.lastIndexOf("Gavin",3))               // 1
 
+#### 迭代方法：
+
+ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参数，要在每一项上运行的函数跟运行该函数的作用对象--影响this的值（可选），而传入这些方法的函数要接收三个参数：数组项的值，该项在数组中的位置和数组对象本身。
+
+- forEach()方法对数组中的每一项运行给定的函数，没有返回值。
+- every()方法对数组中的每一项运行给定的函数，如果该函数对一项都返回true，则返回true。（相当于逻辑与）
+- filter()方法对数组中的每一项运行给定的函数，返回该函数会返回true的项组成的数组。
+- map()方法对数组中的每一项运行给定的函数，返回每次函数调用的结果组成的数组。
+- some()方法对数组中的每一项运行给定的函数，如果该函数对一项返回true，则返回true。（相当于逻辑或）
+
+具体看下列例子：
+    
+    // forEach() 让数组中的每一项做一件事
+    let nums = [1, 2, 3, 4, 5];
+    nums.forEach(function(item,index){
+    	console.log(item);  // 1, 2, 3, 4, 5
+    });
+
+![](https://i.imgur.com/Vx11MVP.png)
+
 
