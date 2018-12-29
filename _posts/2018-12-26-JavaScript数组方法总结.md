@@ -24,7 +24,7 @@
     console.log(names.toLocaleString());    // Jinwen,xiejinwen,Gavin
 
     // toLocaleString()方法在返回日期对象时格式不同
-    const date = new Date();
+    let date = new Date();
 
     console.log(date.toString());           // Wed Dec 26 2018 16:34:23 GMT+0800 (中国标准时间)
     console.log(date.toLocaleString());     // 2018/12/26 下午4:34:23
