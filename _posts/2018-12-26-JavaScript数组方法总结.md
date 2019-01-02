@@ -245,7 +245,7 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
     console.log(nums);      // [1, 2, 3, 4, 5]
     console.log(result);    // 15
 
-
+![](https://i.imgur.com/E62F772.png)
 
 
 
