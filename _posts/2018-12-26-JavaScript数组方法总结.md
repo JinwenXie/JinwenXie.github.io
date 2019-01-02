@@ -230,11 +230,22 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 
 ![](https://i.imgur.com/HiNL5CX.png)<br>
 
+#### 归并方法：
+
+- reduce() 方法让数组的前项后项做某种计算处理，并累计最终值； 
+
+具体看下面例子：<br>
+
+    // reduce()方法
+    let nums = [1, 2, 3, 4, 5];
+
+    let result = nums.reduce(function(prev,next){
+        return prev + next;
+    });
+    console.log(nums);      // [1, 2, 3, 4, 5]
+    console.log(result);    // 15
 
 
 
-
-###### 最后附上一张迭代方法图
-![](https://i.imgur.com/iFKukeD.png)
 
 
