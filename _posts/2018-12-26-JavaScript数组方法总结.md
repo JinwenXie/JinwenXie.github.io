@@ -249,3 +249,7 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 
 
 
+###### 最后附上一张迭代方法图
+![](https://i.imgur.com/iFKukeD.png)
+
+
