@@ -8,7 +8,6 @@
 		"date": "2019-01-03",
 		"author": "Gavin(xiejinwen)"
 	},
-	
 	{
 		"title": "JavaScript数组方法总结",
 		"summary": "转换方法—toLocaleString()、toString()、valueOf()；栈方法——push()、pop()；队列方法——shift()、unshift()；重排序方法——reverse()、sort()；操作方法——concat()、slice()、splice()；位置方法——indexOf()、lastIndexOf()；迭代方法——every()、filter()、forEach()、map()、some()；归并方法——reduce()、reduceRight()",
