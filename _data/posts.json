@@ -1,7 +1,7 @@
 [
 	{
 		"title": "JavaScript中的表达式和语句",
-		"summary": "",
+		"summary": "本文着重于在JavaScript语法中十分重要的语句（statements）和表达式（expressions）之间的区别。",
 		"authorImage": "../static/img/posts/mine_3.jpg",
 		"articleImage": "../static/img/posts/js.png",
 		"url": "https://jinwenxie.github.io/2019/01/03/JavaScript中的表达式和语句.html",
