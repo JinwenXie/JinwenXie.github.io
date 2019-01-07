@@ -187,7 +187,9 @@ div.col-sm-3 img.profile-avatar {
   display: block;
   width: 100%;
   max-height: 120px;
-
+  -webkit-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease;
 }
 .blogs-msg {
   width: 75%;
