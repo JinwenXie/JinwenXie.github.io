@@ -63,3 +63,8 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
     
     > console.log(("a", "b"));.
     b
+
+### 3.与语句类似的表达式
+一些表达式看上去和语句十分相似，我们将在本节最后讨论这个问题。<br>
+
+##### 3.1.1.对象字面量（object literal）和块状作用域（block）
