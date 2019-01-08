@@ -31,7 +31,7 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
 ### 2.相似的语句和表达式
 为了加深对语句和表达式之间区别的理解，我们来举几个表达式和语句十分相似的例子。<br>
 
-2.1. if语句和条件运算符（conditional operator）<br>
+##### 2.1. if语句和条件运算符（conditional operator）<br>
 下面是一个if语句的例子：<br>
 
     var x;
@@ -46,3 +46,20 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
     var x = (y >= 0 ? y : -y);
 
 注意：等号和分号之间的代码是一个表达式。括号不是必要的，括号是为了使代码更加清晰易懂。<br>
+
+##### 2.2.分号（semicolon）与逗号运算符（comma operator）
+在JavaScript中，分号用来连接不同的语句：<br>
+    
+    foo(); bar();
+
+逗号运算符计算两个表达式的值并返回第二个表达式的值。如下所示：（chrome调试器里直接运行代码）<br>
+
+    > "a", "b"
+    'b'
+    
+    > var x = ("a", "b");
+    > x
+    'b'
+    
+    > console.log(("a", "b"));.
+    b
