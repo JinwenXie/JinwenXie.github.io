@@ -81,3 +81,9 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
 - 语句：表达式语句bar(3,5)；
     
 {}可用于定义作用域或对象字面量，究竟代表什么取决于下列WAT（？）：<br>
+
+	> [] + {}
+    "[object Object]"
+    
+    > {} + []
+    0
