@@ -158,3 +158,23 @@ JavaScript允许一个块状作用域既不充当循环也不充当if语句的�
 
     > var x = {};
     // 那他就是一个 expression 代表一个值 - 一个物件
+
+##### 3.2.函数表达式（function expression）与函数声明（function declaration）如下是一个函数声明：
+
+    function () { }
+
+当然，你也可以为这个表达式加上一个名字，将它变成命名后的函数表达式：<br>
+
+    function foo() { }    
+
+在当作function expression时上面的function名称foo只存在function内部能使用，举例来说像是一个递归。<br>
+你可能困惑了，我们到底在说啥？看看下面的例子，我们要说的是当function放在statements和expressions不同位置时的差异(放在=右边是expression)<br>
+
+    var fn = function me(x) { return x <= 1 ? 1 : x * me(x-1)} // = 等号右边是一个 expression 的位置
+    fn(10); // 3628800
+
+    console.log(me); // ReferenceError: me is not defined
+
+具名的function expression和函数声明的写法看起来是没有区别的。但实际上这两者的效果截然不同，function expression产生一个值(一个function)。函数声明则产生一个行为，即建立一个变数，然后它的值是一个function。而且只有function expression可以被立即调用，函数声明不行。<br>
+
+从上面这几点看来能够区分expression 和statement 挺重要的。<br>
