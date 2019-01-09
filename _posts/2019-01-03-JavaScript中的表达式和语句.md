@@ -1,4 +1,4 @@
-####引子：表达式和语句很基础，但是有时会犯错，比如：
+#### 引子：表达式和语句很基础，但是有时会犯错，比如：
 
     function(){}//报错
     (function(){})//不报错
@@ -31,7 +31,7 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
 ### 2.相似的语句和表达式
 为了加深对语句和表达式之间区别的理解，我们来举几个表达式和语句十分相似的例子。<br>
 
-##### 2.1. if语句和条件运算符（conditional operator）<br>
+#### 2.1. if语句和条件运算符（conditional operator）<br>
 下面是一个if语句的例子：<br>
 
     var x;
@@ -47,7 +47,7 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
 
 注意：**等号和分号之间的代码是一个表达式**。括号不是必要的，括号是为了使代码更加清晰易懂。<br>
 
-##### 2.2.分号（semicolon）与逗号运算符（comma operator）
+#### 2.2.分号（semicolon）与逗号运算符（comma operator）
 **在JavaScript中，分号用来连接不同的语句**：<br>
     
     foo(); bar();
@@ -67,7 +67,7 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
 ### 3.与语句类似的表达式
 一些表达式看上去和语句十分相似，我们将在本节最后讨论这个问题。<br>
 
-##### 3.1.1.对象字面量（object literal）和块状作用域（block）
+#### 3.1.1.对象字面量（object literal）和块状作用域（block）
 下面的例子显示了一个对象字面量：<br>
 
     {
@@ -159,7 +159,7 @@ JavaScript允许一个块状作用域既不充当循环也不充当if语句的�
     > var x = {};
     // 那他就是一个 expression 代表一个值 - 一个对象
 
-##### 3.2.函数表达式（function expression）与函数声明（function declaration）
+#### 3.2.函数表达式（function expression）与函数声明（function declaration）
 如下是一个函数声明：<br>
 
     function () { }
@@ -180,7 +180,7 @@ JavaScript允许一个块状作用域既不充当循环也不充当if语句的�
 
 从上面这几点看来能够区分expression 和statement 挺重要的。<br>
 
-##### 4.使用对象字面量和函数表达式作为语句
+#### 4.使用对象字面量和函数表达式作为语句
 
 我们已经看到，有些表达式和语句无法区分开，这意味着相同的代码由于其上下文环境不同，作用也是不同的。但是，表达式语句却将表达式写在了语句的上下文之中。为了避免歧义，JavaScript语法禁止表达式语句以大括号和关键字function开始。<br>
 换句话说就是在javascript认定为statement的位置，使用了expression会变成expression statement。这并不是expression，所以产生一些特殊的状况{}会被当作block解释，function开头的语法会被当作函数定义。<br>
