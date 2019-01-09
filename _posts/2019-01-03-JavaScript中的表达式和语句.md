@@ -45,7 +45,7 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
 
     var x = (y >= 0 ? y : -y);
 
-注意：等号和分号之间的代码是一个表达式。括号不是必要的，括号是为了使代码更加清晰易懂。<br>
+注意：**等号和分号之间的代码是一个表达式**。括号不是必要的，括号是为了使代码更加清晰易懂。<br>
 
 ##### 2.2.分号（semicolon）与逗号运算符（comma operator）
 在JavaScript中，分号用来连接不同的语句：<br>
