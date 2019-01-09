@@ -148,3 +148,13 @@ JavaScript允许一个块状作用域既不充当循环也不充当if语句的�
         One
         Two
         Three
+
+从上面验证了{}的语法如果遇到statements的位置，就会被当成statements，而如果在expressions的位置就会被当解析成一个值。<br>
+
+    > {} + [];
+    // 就是一个最好的例子，{} 被当作 statement 就是一个 block
+
+    // 如果換成
+
+    > var x = {};
+    // 那他就是一个 expression 代表一个值 - 一个物件
