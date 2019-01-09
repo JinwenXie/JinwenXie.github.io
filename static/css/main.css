@@ -36,6 +36,10 @@ a:hover {
   color: #B3B3B3;
   text-decoration: underline;
 }
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+  color: #000;
+  font-weight: bold;
+}
 
 /* Layout */
 .main-layout {
