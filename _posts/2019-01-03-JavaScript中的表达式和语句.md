@@ -159,7 +159,8 @@ JavaScript允许一个块状作用域既不充当循环也不充当if语句的�
     > var x = {};
     // 那他就是一个 expression 代表一个值 - 一个物件
 
-##### 3.2.函数表达式（function expression）与函数声明（function declaration）如下是一个函数声明：
+##### 3.2.函数表达式（function expression）与函数声明（function declaration）
+如下是一个函数声明：<br>
 
     function () { }
 
