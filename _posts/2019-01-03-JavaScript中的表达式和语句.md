@@ -179,3 +179,13 @@ JavaScript允许一个块状作用域既不充当循环也不充当if语句的�
 具名的function expression和函数声明的写法看起来是没有区别的。但实际上这两者的效果截然不同，function expression产生一个值(一个function)。函数声明则产生一个行为，即建立一个变数，然后它的值是一个function。而且只有function expression可以被立即调用，函数声明不行。<br>
 
 从上面这几点看来能够区分expression 和statement 挺重要的。<br>
+
+##### 4.使用对象字面量和函数表达式作为语句
+
+我们已经看到，有些表达式和语句无法区分开，这意味着相同的代码由于其上下文环境不同，作用也是不同的。但是，表达式语句却将表达式写在了语句的上下文之中。为了避免歧义，JavaScript语法禁止表达式语句以大括号和关键字function开始。<br>
+换句话说就是在javascript认定为statement的位置，使用了expression会变成expression statement。这并不是expression，所以产生一些特殊的状况{}会被当作block解释，function开头的语法会被当作函数定义。<br>
+
+	ExpressionStatement :
+    [lookahead ∉ {"{", "function"}]Expression ;
+
+那么，如果你想写一个以这两个标记中的任何一个开始的表达式语句，你该怎么做？你可以把它放在括号里面，它不会改变它的结果，但确保它出现在只有表达式的上下文中。我们来看两个例子：eval并立即调用函数表达式。<br>
