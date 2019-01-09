@@ -99,7 +99,7 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
     > 1 + {name: 'andyyou'}
     "1[object Object]"
 
-    // 上面范例得知，除了undefined和null，基本上js会把物件先`toString()`在相加
+    // 上面范例得知，除了undefined和null，基本上js会把对象先`toString()`在相加
 
     > [].toString()
     ""
@@ -157,7 +157,7 @@ JavaScript允许一个块状作用域既不充当循环也不充当if语句的�
     // 如果換成
 
     > var x = {};
-    // 那他就是一个 expression 代表一个值 - 一个物件
+    // 那他就是一个 expression 代表一个值 - 一个对象
 
 ##### 3.2.函数表达式（function expression）与函数声明（function declaration）
 如下是一个函数声明：<br>
