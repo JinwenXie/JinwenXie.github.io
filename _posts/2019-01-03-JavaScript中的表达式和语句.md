@@ -171,7 +171,7 @@ JavaScript允许一个块状作用域既不充当循环也不充当if语句的�
 在当作function expression时上面的function名称foo只存在function内部能使用，举例来说像是一个递归。<br>
 你可能困惑了，我们到底在说啥？看看下面的例子，我们要说的是当function放在statements和expressions不同位置时的差异(放在=右边是expression)<br>
 
-    var fn = function me(x) { return x <= 1 ? 1 : x * me(x-1)} // = 等号右边是一个 expression 的位置
+    var fn = function me(x) { return x <= 1 ? 1 : x * me(x-1)} // 等号右边是一个 expression 的位置
     fn(10); // 3628800
 
     console.log(me); // ReferenceError: me is not defined
