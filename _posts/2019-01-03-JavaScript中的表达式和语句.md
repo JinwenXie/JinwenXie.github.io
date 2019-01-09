@@ -82,9 +82,46 @@ JavaScript对语句（statements）和表达式（expressions）有十分明确�
     
 {}可用于定义作用域或对象字面量，究竟代表什么取决于下列WAT（？）：<br>
 
-	> [] + {}
+	// 在看这个奇怪的范例之前，让我们先看看一些JavaScript的行为
+    // 当我们把非数字相加时
+    > 1 + 'string'
+    '1string'
+
+    > 1 + undefined
+    NaN
+
+    > 1 + null
+    1
+
+    > 1 + [2,3,]
+    "12,3"
+
+    > 1 + {name: 'andyyou'}
+    "1[object Object]"
+
+    // 上面范例得知，除了undefined和null，基本上js会把物件先`toString()`在相加
+
+    > [].toString()
+    ""
+
+    > [1, 2, 3].toString()
+    "1,2,3"
+
+    > var o = {};
+    > o.toString();
     "[object Object]"
-    
+
+    // 有了上面的基础知识后，让我们来看看这令人吓尿的行为
+
+    > [] + {}
+    "[object Object]"
+
+    // 好！上面代码如我们所料，[] ===> "" 加上 {} ===> "[object Object]"
+
+    // 先问你们个问题: + 两边的运算元能不能互换而结果不变
+    // 你可能回答: 是！！！
+    // 但....
+
     > {} + []
     0
 
