@@ -231,8 +231,14 @@ NaN的出现正是由于+号运算undefined的结果。也可以使用以下void
     // 所以上面链接的形式也可是: javascript:void '' , javascript:void "1" , javascript:undefined
 
 ##### 4.3.连接多个IIFEs(自执行函数)
-当你连接IIFEs时，不要忘记分号：
+当你连接IIFEs时，不要忘记分号：<br>
 
     (function () {}())
     (function () {}())
     // TypeError: undefined is not a function
+
+代码错误原因是JavaScript认为第二行是尝试将第一行的结果作为函数调用。解决方法是在第一行末尾加上一个分号：<br>
+
+    (function () {}());
+    (function () {}())
+    // OK
