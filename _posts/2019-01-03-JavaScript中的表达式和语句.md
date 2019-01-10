@@ -262,14 +262,14 @@ javascript会自动补上分号是因为接在第一行之后的void并不是可
 
 - syntax : 语法(文法)，该怎么组织statements 与expressions。
 - expressions :会产生一个值，其意义就是代表一个值的表式例如x + y。
-- statements :完成某项任务的操作。赋值，条件判断，宣告都算是statements; if (condiction) { console.log('WoooW!') }。
+- statements :完成某项任务的操作。赋值，条件判断，函数声明都算是statements; if (condiction) { console.log('WoooW!') }。
 - expression statements :属于一种statement，其产生一个值(或说回传一个值)，并完成某项任务。例如：x += 1或者在statement执行一个side effect的函数呼叫。
 - 在statements位置放入expressions要小心(即expression statement)，因为javascript对于expression和expression statement解释行为是不一样的。
 - 下面这两种语法对于其位置尤其需要注意:
 
 **a、function**
 
-1. statement 位置: 当作函数宣告，即建立一个变数它的值是一个function。，不能立即调用。
+1. statement 位置: 当作函数声明，即建立一个变数它的值是一个function。，不能立即调用。
 1. expression 位置: 为function expression 产生一个为function 的值，可以被立即调用(IIFE)。
 
 **b、{}**
