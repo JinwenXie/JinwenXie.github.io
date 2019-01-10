@@ -248,3 +248,11 @@ NaN的出现正是由于+号运算undefined的结果。也可以使用以下void
     void function () {}()
     void function () {}()
     // OK
+
+javascript会自动补上分号是因为接在第一行之后的void并不是可以接下去的语句(符合规范能串在一起的写法)。<br>
+另外关于javascript 自动补上分号有几项建议如下：<br>
+
+- 在return，break，continue，++，--五种statement中，换行字元可完全等于;。
+- var，if，do while，for，continue，break，return，with，switch，throw，try，debugger 关键字开头，以及空的statement，上一行会自动补上分号。
+- 遇到expression statement 和function expression 情况非常复杂，后面请务必要加上分号。
+- 凡 ( 和 [ 开头的statements前面或上一句不加非常危险。
