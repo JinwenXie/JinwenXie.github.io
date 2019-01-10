@@ -229,3 +229,10 @@ NaN的出现正是由于+号运算undefined的结果。也可以使用以下void
     // void()是运算符,对任何值都返回undefined;和typeof运算符号一样可以 void(0) = void 0;
     // void function main(){}; 申明此函数返回的是 undefined; 没有 return 的函数默认也是返回 undefined ;所以没有写的必要,也上是为了语义化.?
     // 所以上面链接的形式也可是: javascript:void '' , javascript:void "1" , javascript:undefined
+
+##### 4.3.连接多个IIFEs(自执行函数)
+当你连接IIFEs时，不要忘记分号：
+
+    (function () {}())
+    (function () {}())
+    // TypeError: undefined is not a function
