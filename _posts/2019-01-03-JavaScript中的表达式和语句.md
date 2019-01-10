@@ -256,3 +256,23 @@ javascript会自动补上分号是因为接在第一行之后的void并不是可
 - var，if，do while，for，continue，break，return，with，switch，throw，try，debugger 关键字开头，以及空的statement，上一行会自动补上分号。
 - 遇到expression statement 和function expression 情况非常复杂，后面请务必要加上分号。
 - 凡 ( 和 [ 开头的statements前面或上一句不加非常危险。
+
+
+### 总结
+
+- syntax : 语法(文法)，该怎么组织statements 与expressions。
+- expressions :会产生一个值，其意义就是代表一个值的表式例如x + y。
+- statements :完成某项任务的操作。赋值，条件判断，宣告都算是statements; if (condiction) { console.log('WoooW!') }。
+- expression statements :属于一种statement，其产生一个值(或说回传一个值)，并完成某项任务。例如：x += 1或者在statement执行一个side effect的函数呼叫。
+- 在statements位置放入expressions要小心(即expression statement)，因为javascript对于expression和expression statement解释行为是不一样的。
+- 下面这两种语法对于其位置尤其需要注意:
+
+**a、function**
+
+1. statement 位置: 当作函数宣告，即建立一个变数它的值是一个function。，不能立即调用。
+1. expression 位置: 为function expression 产生一个为function 的值，可以被立即调用(IIFE)。
+
+**b、{}**
+    
+1. statement 位置: block 一个程式码区块，例如for, label 的block。
+1. expression 位置: 物件实字，建立一个值- 物件。
