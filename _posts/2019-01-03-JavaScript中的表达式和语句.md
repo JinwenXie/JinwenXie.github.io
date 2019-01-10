@@ -209,3 +209,8 @@ eval在语句上下文中解析它所收到的参数。如果你想让eval返回
     > function () { return "abc" }()
     SyntaxError: function statement requires a name
 
+即使你添加一个名字，也会返回语法错误（函数声明不能被立即调用）：<br>
+
+    > function foo() { return "abc" }()
+    SyntaxError: syntax error
+
