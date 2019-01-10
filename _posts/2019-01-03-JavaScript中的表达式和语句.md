@@ -242,3 +242,9 @@ NaN的出现正是由于+号运算undefined的结果。也可以使用以下void
     (function () {}());
     (function () {}())
     // OK
+
+对于只有一元运算符（加号既是一元也是二进制）的操作符，可以省略分号，因为执行时会自动添加分号：<br>
+
+    void function () {}()
+    void function () {}()
+    // OK
