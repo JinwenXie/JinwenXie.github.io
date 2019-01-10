@@ -214,3 +214,14 @@ eval在语句上下文中解析它所收到的参数。如果你想让eval返回
     > function foo() { return "abc" }()
     SyntaxError: syntax error
 
+另一个保证表达式在表达式上下文中被解析的方法是在函数声明之前添加一个一元运算符（比如+或！），但是与括号不同的是，这些符号会改变输出的表示形式，如下所示：<br>
+
+    > +function () { console.log("hello") }()
+    hello
+    NaN
+
+NaN的出现正是由于+号运算undefined的结果。也可以使用以下void运算符：<br>
+
+    > void function () { console.log("hello") }()
+    hello
+    undefined
