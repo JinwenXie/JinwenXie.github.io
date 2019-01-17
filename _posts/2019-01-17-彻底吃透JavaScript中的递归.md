@@ -14,3 +14,15 @@
 ![](https://i.imgur.com/7TIxvGT.png)
 
 在 step 2 中, x / 2 的结果是 8， 这个结果以参数的形式传递到 foo(..) 并运行。同样的，在 step 3 中， x / 2 的结果是 4，这个结果以参数的形式传递到另一个 foo(..) 并运行。但愿我解释得足够直白。<br>
+
+这里举一个更加形象的例子，那就是阶层运算:<br>
+
+    function factorial(n){
+        if(n===0){
+            return 1; 
+        }
+        return n * factorial(n-1);
+    }
+    console.log(factorial(5));      // 120
+
+在递归的例子中，从第一个调用factorial(5)开始，一直递归调用factorial函数自身直到参数的值为0。下面是一个形象的图例：<br>
