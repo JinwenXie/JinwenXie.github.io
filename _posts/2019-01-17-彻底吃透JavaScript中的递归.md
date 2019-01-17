@@ -1,22 +1,14 @@
-### 遮罩层内容可以滑动，body不可以滑动并保持之前滑动的位置不变
-	
-	var isShow = true;
-    var top = 0;//给top变量一个初始值，以便下方赋值并引用。
-    $('#Jheader .tab').on('click', function(){
-        if(isShow){
-            $(this).addClass('close');
-            $('#Jheader .label-block').show();
-            isShow = false;
-            top = $(window).scrollTop();//获取页面的scrollTop；
-            $('body').css("top",-top+"px");
-            $('body').addClass('position-fixed'); 
-        } else {
-            $(this).removeClass('close');
-            $('#Jheader .label-block').hide();
-            isShow = true;
-            $('body').removeClass('position-fixed');
-            $(window).scrollTop(top);//设置页面滚动的高度，如果不设置，关闭弹出层时页面会回到顶部。
-        }
-        
-    });
-	// 别忘记了在滑动容器css中添加ios滑动增强效果代码：-webkit-overflow-scrolling : touch;
+### 定义
+
+所谓递归，是当一个函数调用自身，并且该调用做了同样的事情，这个循环持续到基本条件满足时，调用循环返回。<br>
+警告： 如果你不能确保基本条件是递归的终结者，递归将会一直执行下去，并且会把你的项目损坏或锁死；恰当的基本条件十分重要！<br>
+
+但是... 这个定义的书面形式太让人疑惑了。我们可以做的更好些。思考下这个递归函数：<br>
+
+    function foo(x) {
+        if (x < 5) return x;
+        return foo( x / 2 );
+    }
+设想一下，如果我们调用 foo(16) 将会发生什么：<br>
+    demo_1
+在 step 2 中, x / 2 的结果是 8， 这个结果以参数的形式传递到 foo(..) 并运行。同样的，在 step 3 中， x / 2 的结果是 4，这个结果以参数的形式传递到另一个 foo(..) 并运行。但愿我解释得足够直白。<br>
