@@ -9,6 +9,7 @@
         if (x < 5) return x;
         return foo( x / 2 );
     }
+
 设想一下，如果我们调用 foo(16) 将会发生什么：<br>
     
 ![](https://i.imgur.com/7TIxvGT.png)
