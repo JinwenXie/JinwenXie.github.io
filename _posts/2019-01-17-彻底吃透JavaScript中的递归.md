@@ -29,3 +29,24 @@
 在递归的例子中，从第一个调用factorial(5)开始，一直递归调用factorial函数自身直到参数的值为0。下面是一个形象的图例：<br>
 
 ![](https://i.imgur.com/i3CFsbV.png)<br>
+
+我们再来一个质数判断的递归实例：<br>
+
+	// 质数定义为在大于1的自然数中，除了1和它本身以外不再有其他因数。
+	function isPrime(num,divisor = 2){
+	    if (num < 2 || (num > 2 && num % divisor === 0)) {
+	        return false;
+	    }
+	    if (divisor <= Math.sqrt( num )) {
+	        return isPrime( num, divisor + 1 );
+	    }
+	
+	    return true;
+	}
+
+	console.log(isPrime(1));    // flase
+	console.log(isPrime(2));    // true
+	console.log(isPrime(5));    // true
+	console.log(isPrime(10));   // false
+
+这个质数的判断主要是通过验证，从2到 num 的平方根之间的每个整数，看是否存在某一整数可以整除 num (% 求余结果为 0)。如果存在这样的整数，那么 num 不是质数。反之，是质数。divisor + 1 使用递归来遍历每个可能的 divisor 值。<br>
