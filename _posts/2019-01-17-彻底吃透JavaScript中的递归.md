@@ -27,3 +27,5 @@
     console.log(factorial(5));      // 120
 
 在递归的例子中，从第一个调用factorial(5)开始，一直递归调用factorial函数自身直到参数的值为0。下面是一个形象的图例：<br>
+
+![](https://i.imgur.com/i3CFsbV.png)<br>
