@@ -64,12 +64,11 @@ a:hover {
 }
 /* Content */
 div.content pre {
-  background: #333333;
   padding: 10px;
   color: #333;
   overflow-x: auto;
-  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   border: none;
   border: 1px solid #ccc;
 }
