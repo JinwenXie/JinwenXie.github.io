@@ -15,3 +15,5 @@
 这是因为在win10系统下，win10 MarkdownPad html会产生一个渲染错误 awesomium（ This view has crashed ），此时就需要下载一个HTML UI ENGINE（`awesomium_v1.6.6_sdk_win`）去解决该错误，该组件的下载地址：<br>
 [http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe](http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe)<br>
 下载安装后再重启MakrdownPad2就没有问题了。
+
+
