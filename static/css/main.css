@@ -331,7 +331,6 @@ div.col-sm-3 img.profile-avatar {
   font-style: normal;
   color: #e2154e;
 }
-
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
