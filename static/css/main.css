@@ -339,7 +339,6 @@ div.col-sm-3 img.profile-avatar {
     max-width: 255px;
   }
 }
-
 @media (max-width: 768px) {
   div.col-sm-3 {
     margin-top: 30px;
