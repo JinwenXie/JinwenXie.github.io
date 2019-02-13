@@ -1,11 +1,11 @@
 [
 	{
-		"title": "彻底吃透JavaScript中的递归",
-		"summary": "所谓递归，是当一个函数调用自身，并且该调用做了同样的事情，这个循环持续到基本条件满足时，调用循环返回",
+		"title": "系列之let&const",
+		"summary": "ES5中声明变量用var，ES6中用let声明变量，const声明常量。",
 		"authorImage": "../static/img/posts/mine_2.jpg",
-		"articleImage": "../static/img/recursion/cover.png",
-		"url": "https://jinwenxie.github.io/2019/01/17/彻底吃透JavaScript中的递归.html",
-		"date": "2019-01-17",
+		"articleImage": "../static/img/posts/es6.png",
+		"url": "https://jinwenxie.github.io/2019/01/20/ES6系列之let&const.html",
+		"date": "2019-01-20",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
