@@ -9,6 +9,15 @@
 		"author": "Gavin(xiejinwen)"
 	},
 	{
+		"title": "彻底吃透JavaScript中的递归",
+		"summary": "所谓递归，是当一个函数调用自身，并且该调用做了同样的事情，这个循环持续到基本条件满足时，调用循环返回",
+		"authorImage": "../static/img/posts/mine_2.jpg",
+		"articleImage": "../static/img/recursion/cover.png",
+		"url": "https://jinwenxie.github.io/2019/01/17/彻底吃透JavaScript中的递归.html",
+		"date": "2019-01-17",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "移动端一些常见的功能效果",
 		"summary": "本文着重于记录一些自己在工作或学习过程中实现的一些比较常见的移动端效果，以便自己将来再次使用的时候方便",
 		"authorImage": "../static/img/posts/mine_2.jpg",
