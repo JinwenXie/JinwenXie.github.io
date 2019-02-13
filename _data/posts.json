@@ -1,6 +1,6 @@
 [
 	{
-		"title": "字符串的扩展",
+		"title": "S6系列之字符串的扩展",
 		"summary": "ES6对字符串新增了一些函数和操作规范，使得开发者对字符串的操作更加方便，以往需要借助其他javascript代码才能实现的效果，现在利用这些函数即可快速实现。",
 		"authorImage": "../static/img/posts/mine_2.jpg",
 		"articleImage": "../static/img/posts/es6.png",
@@ -9,7 +9,7 @@
 		"author": "Gavin(xiejinwen)"
 	},
 	{
-		"title": "系列之let&const",
+		"title": "S6系列之let&const",
 		"summary": "ES5中声明变量用var，ES6中用let声明变量，const声明常量。",
 		"authorImage": "../static/img/posts/mine_2.jpg",
 		"articleImage": "../static/img/posts/es6.png",
