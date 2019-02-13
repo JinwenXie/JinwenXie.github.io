@@ -1,10 +1,19 @@
 [
 	{
+		"title": "ES6系列之函数的扩展",
+		"summary": "ES6对字符串新增了一些函数和操作规范，使得开发者对字符串的操作更加方便，以往需要借助其他javascript代码才能实现的效果，现在利用这些函数即可快速实现。",
+		"authorImage": "../static/img/posts/mine_2.jpg",
+		"articleImage": "../static/img/posts/es6.png",
+		"url": "https://jinwenxie.github.io/2019/01/23/ES6系列之函数的扩展.html",
+		"date": "2019-01-23",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "ES6系列之字符串的扩展",
 		"summary": "ES6对字符串新增了一些函数和操作规范，使得开发者对字符串的操作更加方便，以往需要借助其他javascript代码才能实现的效果，现在利用这些函数即可快速实现。",
 		"authorImage": "../static/img/posts/mine_2.jpg",
 		"articleImage": "../static/img/posts/es6.png",
-		"url": "https://jinwenxie.github.io/2019/01/21/字符串的扩展.html",
+		"url": "https://jinwenxie.github.io/2019/01/21/ES6系列之字符串的扩展.html",
 		"date": "2019-01-21",
 		"author": "Gavin(xiejinwen)"
 	},
