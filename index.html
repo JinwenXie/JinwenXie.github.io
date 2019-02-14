@@ -7,6 +7,25 @@
 	<title>Document</title>
 </head>
 <body>
-	1265
+	<ul class="xjw-blogs">
+		{% for postsList in site.data.posts %}
+		<li>
+			<a href="{{ postsList.url }}" target="_blank">
+				<div class="blogs-image">
+					<img src="{{ postsList.articleImage }}" alt="{{ postsList.title }}">
+				</div>
+				<div class="blogs-msg">
+					<h4 class="blogs-title">{{ postsList.title }}</h4>
+					<p class="blogs-summary">{{ postsList.summary }}</p>
+					<div class="blogs-frag">
+						<img src="{{ postsList.authorImage }}">
+						<span class="blogs-author">{{ postsList.author }}</span>
+						<i class="blogs-date">{{ postsList.date }}</i>
+					</div>
+				</div>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
 </body>
 </html>
