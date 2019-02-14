@@ -9,7 +9,9 @@
 </head>
 <body>
 	<header>
-
+		<div class="col">
+			
+		</div>
 	</header>
 	<section>
 		<ul id="JxjwBlogList"></ul>
@@ -23,17 +25,15 @@
 	<script src="_data/posts.js"></script>
 	<script>
 		$(function(){
-			let blogList = '',
-				size = 6,
+			let size = 6,
 				start = 0,
 				isScroll = true;
 
 			function loadBlog(){
-				blogList = '';
-				console.log(start,posts.data.length);
+				let blogList = '';
 				for( let i=start; i<size+start; i++ ){
 					if(i<posts.data.length){
-						blogList += `<li><a href="${posts.data[i].url}"><div class="art-img"><img src="${posts.data[i].articleImage}" alt=""></div><div class="art-info"><h4>${posts.data[i].title}</h4><p class="summary">${posts.data[i].summary}</p><p class="desc"><i class="author-img"><img src="${posts.data[i].authorImage}" /></i><i class="art-author">${posts.data[i].author}</i><i class="art-publish-time">${posts.data[i].date}</i></p></div></a></li>`;
+						blogList += `<li><a href="${posts.data[i].url}" target="_blank"><div class="art-img"><img src="${posts.data[i].articleImage}" alt=""></div><div class="art-info"><h4>${posts.data[i].title}</h4><p class="summary">${posts.data[i].summary}</p><p class="desc"><i class="author-img"><img src="${posts.data[i].authorImage}" /></i><i class="art-author">${posts.data[i].author}</i><i class="art-publish-time">${posts.data[i].date}</i></p></div></a></li>`;
 					} else {
 						$('#JxjwBlogList').append(blogList);
 						$('#Jloading').removeClass('loading-gif').text('- 博主正在努力更新 -');
@@ -41,19 +41,28 @@
 						return false;
 					}
 				}
-				setTimeout(()=>{
-					
-				},1000);
+				if(start!=0){
+					setTimeout(()=>{
+						appendArt(blogList);
+					},1000);
+				} else {
+					appendArt(blogList);
+				}
+			}
+			function appendArt(blog){
 				start = start + size;
-				$('#JxjwBlogList').append(blogList);
+				$('#Jloading').hide();
+				$('#JxjwBlogList').append(blog);
+				isScroll = true;
 			}
 			loadBlog();
 			
-			$(window).on('scroll',function(){
-				var scrollTop = $(window).scrollTop();
+			$(window).on('scroll',()=>{
+				let scrollTop = $(window).scrollTop();
 				if (scrollTop>=$(document).height()-$(window).height() ) {  
 					if(isScroll) {
 						$('#Jloading').show();
+						isScroll = false;
 						loadBlog();
 					}
 				}
