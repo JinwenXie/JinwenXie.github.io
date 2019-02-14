@@ -1,7 +1,7 @@
 [
 	{
 		"title": "ES6系列之es5作用域与es6块级作用域",
-		"summary": "块级作用域：变量在离开定义的块级代码后立即被回收。即“ {} 中间的部分是一个块级作用域”。例如：for 循环、 if 逻辑判断、while 循环等语句后面的 {} 都是一个块级作用域。",
+		"summary": "块级作用域：变量在离开定义的块级代码后立即被回收。即“ 花括号中间的部分是一个块级作用域”。例如：for 循环、 if 逻辑判断、while 循环等语句后面的花括号都是一个块级作用域。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/es6.png",
 		"url": "https://jinwenxie.github.io/2019/01/24/ES6系列之es5作用域与es6块级作用域.html",
