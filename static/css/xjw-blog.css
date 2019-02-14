@@ -1,0 +1,26 @@
+@import url(reset.css);
+header { width: 100%; height: 600px; }
+
+section { width: 1000px; margin: 0 auto; }
+
+#JxjwBlogList { width: 1000px; margin: 0 auto; }
+#JxjwBlogList li { width: 1000px; height: 150px; margin-bottom: 40px; }
+#JxjwBlogList a { display: block; width: 1000px; height: 150px; }
+#JxjwBlogList a:hover { text-decoration: none; }
+#JxjwBlogList a:hover h4 { color: #0081ef; }
+#JxjwBlogList .art-img { width: 240px; height: 150px; float: left; }
+#JxjwBlogList .art-img img { display: block; width: 240px; height: 150px; -webkit-transition: all .6s ease; -o-transition: all .6s ease; transition: all .6s ease; }
+#JxjwBlogList .art-img img:hover { transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); }
+#JxjwBlogList .art-info { width: 734px; height: 150px; float: left; padding-left: 26px; }
+#JxjwBlogList .art-info h4 { width: 734px; line-height: 34px; height: 34px; color: #333333; font-size: 22px; margin-bottom: 8px; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#JxjwBlogList .art-info .summary { line-height: 28px; font-size: 14px; width: 734px; height: 56px; margin-bottom: 15px; color: #999999; text-align: justify; overflow: hidden; text-overflow: ellipsis; word-break: break-all; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; display: box; }
+#JxjwBlogList .art-info .desc { width: 734px; text-align: left; height: 30px; }
+#JxjwBlogList .art-info .desc i { display: block; float: left; height: 30px; font-size: 12px; color: #999999; line-height: 30px; }
+#JxjwBlogList .art-info .desc .author-img img { width: 30px; height: 30px; border-radius: 50%; margin-right: 10px; }
+#JxjwBlogList .art-info .desc .art-publish-time { float: right; }
+
+.loading { display: none; width: 1200px; margin: 40px 0 20px 0; height: 40px; line-height: 40px; font-size: 20px; color: #aaaaaa; text-align: center; letter-spacing: 2px; }
+
+.loading-gif { background-image: url("../img/posts/load.gif"); background-size: 40px 40px; background-position: center center; background-repeat: no-repeat; }
+
+/*# sourceMappingURL=xjw-blog.css.map */
