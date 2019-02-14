@@ -22,6 +22,7 @@
 
 
 	<script src="static/js/jquery.min.js"></script>
+	<script src="static/js/lazy.js"></script>
 	<script src="static/js/posts.js"></script>
 	<script>
 		$(function(){
@@ -29,15 +30,19 @@
 				start = 0,
 				isScroll = true;
 
+				
+			
+
 			function loadBlog(){
 				let blogList = '';
 				for( let i=start; i<size+start; i++ ){
 					if(i<posts.data.length){
-						blogList += `<li><a href="${posts.data[i].url}" target="_blank"><div class="art-img"><img src="${posts.data[i].articleImage}" alt=""></div><div class="art-info"><h4>${posts.data[i].title}</h4><p class="summary">${posts.data[i].summary}</p><p class="desc"><i class="author-img"><img src="${posts.data[i].authorImage}" /></i><i class="art-author">${posts.data[i].author}</i><i class="art-publish-time">${posts.data[i].date}</i></p></div></a></li>`;
+						blogList += `<li><a href="${posts.data[i].url}" target="_blank"><div class="art-img"><img src="static/img/posts/load.png" #src="${posts.data[i].articleImage}" alt=""></div><div class="art-info"><h4>${posts.data[i].title}</h4><p class="summary">${posts.data[i].summary}</p><p class="desc"><i class="author-img"><img src="${posts.data[i].authorImage}" /></i><i class="art-author">${posts.data[i].author}</i><i class="art-publish-time">${posts.data[i].date}</i></p></div></a></li>`;
 					} else {
 						$('#JxjwBlogList').append(blogList);
 						$('#Jloading').removeClass('loading-gif').text('- 博主正在努力更新 -');
 						isScroll = false;
+						lazyFn();
 						return false;
 					}
 				}
@@ -48,6 +53,8 @@
 				} else {
 					appendArt(blogList);
 				}
+				lazyFn();
+				
 			}
 			function appendArt(blog){
 				start = start + size;
@@ -67,8 +74,20 @@
 					}
 				}
 			});
+
+			function lazyFn(){
+				var pcLazy = Lazy.create({
+					lazyId: "JxjwBlogList",
+					trueSrc: '#src',
+					offset: 500,
+					delay: 100,
+					delay_tot: 1000
+				});
+				Lazy.init(pcLazy);
+			}
 			
 		});
+		
 	</script>
 </body>
 </html>
