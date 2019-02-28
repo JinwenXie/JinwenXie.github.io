@@ -53,7 +53,7 @@ PS：为什么会出现这种情况呢？因为在 JS 的最初版本中，使�
     // 返回就是 undefined
     a === void 0
 
-## 2.类型转换
+## 3.类型转换
 ### a.转Boolean
 在条件判断时，除了 undefined， null， false， NaN， ''， 0， -0，其他所有值都转为 true，包括所有对象。<br>
 
@@ -120,3 +120,19 @@ PS：为什么会出现这种情况呢？因为在 JS 的最初版本中，使�
 ### e.比较运算符
 如果是对象，就通过 toPrimitive 转换对象<br>
 如果是字符串，就通过 unicode 字符索引来比较<br>
+
+## 4.原型
+每个函数都有 prototype 属性，除了 Function.prototype.bind()，该属性指向原型。<br>
+
+每个对象都有 __proto__ 属性，指向了创建该对象的构造函数的原型。其实这个属性指向了 [[prototype]]，但是 [[prototype]] 是内部属性，我们并不能访问到，所以使用 _proto_ 来访问。<br>
+
+对象可以通过 __proto__ 来寻找不属于该对象的属性，__proto__ 将对象连接起来组成了原型链。<br>
+
+### 总结
+
+- Object 是所有对象的爸爸，所有对象都可以通过 __proto__ 找到它
+- Function 是所有函数的爸爸，所有函数都可以通过 __proto__ 找到它
+- Function.prototype 和 Object.prototype 是两个特殊的对象，他们由引擎来创建
+- 除了以上两个特殊对象，其他对象都是通过构造器 new 出来的
+- 函数的 prototype 是一个对象，也就是原型
+- 对象的 __proto__ 指向原型， __proto__ 将对象和原型连接起来组成了原型链
