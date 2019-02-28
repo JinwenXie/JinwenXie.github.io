@@ -53,3 +53,6 @@ PS：为什么会出现这种情况呢？因为在 JS 的最初版本中，使�
     // 返回就是 undefined
     a === void 0
 
+## 2.类型转换
+### a.转Boolean
+在条件判断时，除了 undefined， null， false， NaN， ''， 0， -0，其他所有值都转为 true，包括所有对象。<br>
