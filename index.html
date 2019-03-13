@@ -12,9 +12,10 @@ layout: default
     {% endfor %}
   </ol> -->
 	<ul class="xjw-blogs">
-		
+
 		{% for postsList in site.data.posts %}
 		<li>
+			
 			<a href="{{ postsList.url }}" target="_blank">
 				<div class="blogs-image">
 					<img src="{{ postsList.articleImage }}" alt="{{ postsList.title }}">
