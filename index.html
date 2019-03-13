@@ -9,7 +9,8 @@ layout: default
     {% for post in paginator.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
 		{% endfor %}
-  </ol> -->
+	</ol> -->
+	
 	<ul class="xjw-blogs">
 		{% for postsList in site.data.posts %}
 		<li>
