@@ -1,5 +1,14 @@
 [
 	{
+		"title": "git操作之ssh转https",
+		"summary": "一直以来，在公司使用ssh作为github提交与下载的我，今天突然给我报了这个错误“ssh_exchange_identification: read: Connection reset by peer”;遗憾的是，我试过了这些方法之后仍然解决不了我的问题；没办法，只能绕路走，ssh提交不行，那我就换https呗，只要能通罗马就行！",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/git.png",
+		"url": "https://jinwenxie.github.io/2019/03/19/git操作之ssh转https.html",
+		"date": "2019-03-19",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "interview",
 		"summary": "前端面试集锦",
 		"authorImage": "../static/img/posts/mine_1.jpg",
