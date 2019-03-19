@@ -8,7 +8,7 @@
 - 是否达到ssh的最大连接数，超过之后会服务器端会拒绝新的连接，直到有新的连接释放出来
 - /etc/hosts.allow和/etc/hosts.deny配置文件限定ip登录
 
-遗憾的是，我试过了这些方法之后仍然解决不了我的问题；没办法，只能绕路走，ssh提交不行，那我就换https呗，只要能通罗马就行！<br>
+遗憾的是，我围绕着这些原因试过了所有方法之后仍然解决不了我的问题；没办法，只能绕路走，ssh提交不行，那我就换https呗，只要能通罗马就行！<br>
 
 ## git ssh转https
 ### 步骤
@@ -31,3 +31,5 @@ b.添加内容<br>
 c.添加git配置<br>
 
 	$ git config --global credential.helper store
+
+
