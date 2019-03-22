@@ -1,20 +1,11 @@
 [
 	{
-		"title": "git操作之ssh转https",
-		"summary": "一直以来，在公司使用ssh作为github提交与下载的我，今天突然给我报了这个错误“ssh_exchange_identification: read: Connection reset by peer”;遗憾的是，我围绕着这些原因试过了所有方法之后仍然解决不了我的问题；没办法，只能绕路走，ssh提交不行，那我就换https呗，只要能通罗马就行！",
+		"title": "js跨域请求的4种解决方式",
+		"summary": "由于安全的原因，浏览器做了很多方面的工作，由此也就引入了一系列的跨域问题。跨域并非浏览器限制了发起跨站请求，而是跨站请求可以正常发起，但是返回结果被浏览器拦截了。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
-		"articleImage": "../static/img/posts/git.png",
-		"url": "https://jinwenxie.github.io/2019/03/19/git操作之ssh转https.html",
-		"date": "2019-03-19",
-		"author": "Gavin(xiejinwen)"
-	},
-	{
-		"title": "interview",
-		"summary": "前端面试集锦",
-		"authorImage": "../static/img/posts/mine_1.jpg",
-		"articleImage": "../static/img/posts/js.png",
-		"url": "https://jinwenxie.github.io/2019/02/28/interview.html",
-		"date": "2019-02-28",
+		"articleImage": "../static/img/posts/js_1.png",
+		"url": "https://jinwenxie.github.io/2019/03/22/js跨域请求的4种解决方式.html",
+		"date": "2019-03-22",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -198,12 +189,30 @@
 		"author": "Gavin(xiejinwen)"
 	},
 	{
+		"title": "interview",
+		"summary": "前端面试集锦",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/js.png",
+		"url": "https://jinwenxie.github.io/2019/02/28/interview.html",
+		"date": "2018-11-09",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "vscode的安装和使用",
 		"summary": "之前的开发过程中一直用的是sublimeText3和webstorm，现在尝试使用下VS Code；本文介绍Vs Code的软件安装和一些插件的介绍",
 		"authorImage": "../static/img/posts/mine_3.png",
 		"articleImage": "../static/img/posts/vscode.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/08/vscode的安装和使用.html",
 		"date": "2018-11-08",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
+		"title": "git操作之ssh转https",
+		"summary": "一直以来，在公司使用ssh作为github提交与下载的我，今天突然给我报了这个错误“ssh_exchange_identification: read: Connection reset by peer”;遗憾的是，我围绕着这些原因试过了所有方法之后仍然解决不了我的问题；没办法，只能绕路走，ssh提交不行，那我就换https呗，只要能通罗马就行！",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/git.png",
+		"url": "https://jinwenxie.github.io/2019/03/19/git操作之ssh转https.html",
+		"date": "2018-11-06",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
