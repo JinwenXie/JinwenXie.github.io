@@ -4,7 +4,7 @@
 		"summary": "在JavaScript中，call、apply和bind 是Function对象自带的三个方法，这三个方法的主要作用是改变函数中的this指向。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/js.png",
-		"url": "https://jinwenxie.github.io/2019/04/08/apply、call、bind的区别.html",
+		"url": "https://jinwenxie.github.io/2019/04/08/apply&call&bind的区别.html",
 		"date": "2019-04-08",
 		"author": "Gavin(xiejinwen)"
 	},
