@@ -1,5 +1,14 @@
 [
 	{
+		"title": "apply、call、bind的区别",
+		"summary": "在JavaScript中，call、apply和bind 是Function对象自带的三个方法，这三个方法的主要作用是改变函数中的this指向。",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/js_1.png",
+		"url": "https://jinwenxie.github.io/2019/04/08/apply、call、bind的区别.html",
+		"date": "2019-04-08",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "js跨域请求的4种解决方式",
 		"summary": "由于安全的原因，浏览器做了很多方面的工作，由此也就引入了一系列的跨域问题。跨域并非浏览器限制了发起跨站请求，而是跨站请求可以正常发起，但是返回结果被浏览器拦截了。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
