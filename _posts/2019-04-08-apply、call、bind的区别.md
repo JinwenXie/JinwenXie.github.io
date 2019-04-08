@@ -38,3 +38,16 @@
 	let b = a.fn;
 	b.apply(a, [1,2]);
 	b.call(a, 1, 2);
+
+### bind 和 apply、call 区别
+#### bind()方法创建一个新的函数, 当被调用时，将其this关键字设置为提供的值，在调用新函数时，在任何提供之前提供一个给定的参数序列。
+我们可以看出，bind 是创建一个新的函数，我们必须要手动去调用<br>
+
+	let a = {
+		fn: function(a, b) {
+			console.log(a + b);
+		}
+	}
+
+	let b = a.fn;
+	b.bind(a,1,2)();
