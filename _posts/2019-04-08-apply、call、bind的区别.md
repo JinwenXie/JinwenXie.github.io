@@ -24,3 +24,17 @@
 	a.fn2();
 	a.fn3();
 	a.fn4();
+
+
+### apply 和 call 的区别是call方法接受的是若干个参数列表，而apply接收的是一个包含多个参数的数组
+
+
+	let a = {
+		fn: function(a, b) {
+			console.log(a + b);
+		}
+	}
+
+	let b = a.fn;
+	b.apply(a, [1,2]);
+	b.call(a, 1, 2);
