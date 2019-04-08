@@ -51,3 +51,24 @@
 
 	let b = a.fn;
 	b.bind(a,1,2)();
+
+### 应用：
+#### 1、求数组中的最大、最小值
+
+	let arr = [1,2,3];
+	console.log(Math.max.apply(Math, arr));
+	console.log(Math.min.apply(Math, arr));
+
+#### 2、利用call和apply做继承
+
+	var Person = function(name) {
+		this.name = name;
+	};
+	var Girl = function(name) {
+		Person.call(this, name);
+	};
+	var Boy = function(name) {
+		Person.apply(this, name);
+	}
+	var g1 = new Girl('qing');
+			var b1 = new Boy('qianlong');
