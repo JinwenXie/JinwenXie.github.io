@@ -1,5 +1,14 @@
 [
 	{
+	"title": "epubjs阅读器安装和使用",
+	"summary": "epub.js是支持跨多个设备的，在浏览器端渲染EPUB文件的JavaScript库，提供通用的电子书功能界面（如渲染、持久和分页）不需要开发专用的应用程序或插件。",
+	"authorImage": "../static/img/posts/mine_1.jpg",
+	"articleImage": "../static/img/posts/epubjs.png",
+	"url": "https://jinwenxie.github.io/2019/04/16/epubjs阅读器安装和使用.html",
+	"date": "2019-04-18",
+	"author": "Gavin(xiejinwen)"
+},
+	{
 		"title": "防抖与节流",
 		"summary": "函数防抖（debounce）和函数节流（throttle）都是为了缓解函数频繁调用，它们相似，但有区别。函数防抖是间隔超过一定时间后才会执行，函数节流是一定时间段内只执行一次。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
