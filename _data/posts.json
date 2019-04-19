@@ -84,7 +84,7 @@
 		"title": "彻底吃透JavaScript中的递归",
 		"summary": "所谓递归，是当一个函数调用自身，并且该调用做了同样的事情，这个循环持续到基本条件满足时，调用循环返回",
 		"authorImage": "../static/img/posts/mine_2.jpg",
-		"articleImage": "../static/img/recursion/cover.png",
+		"articleImage": "../static/img/recursion/cover.jpg",
 		"url": "https://jinwenxie.github.io/2019/01/17/彻底吃透JavaScript中的递归.html",
 		"date": "2019-01-17",
 		"author": "Gavin(xiejinwen)"
