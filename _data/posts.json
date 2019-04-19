@@ -1,5 +1,14 @@
 [
 	{
+		"title": "ngnix静态资源服务器的配置",
+		"summary": "最近在使用vue来做一个电子书阅读器，直接网上请求电子书不太实际，就利用nginx来配置一个静态的资源服务器来请求本地的文件。",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/nginx/nginx.png",
+		"url": "https://jinwenxie.github.io/2019/04/18/ngnix静态资源服务器的配置.html",
+		"date": "2019-04-19",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "epubjs阅读器安装和使用",
 		"summary": "epub.js是支持跨多个设备的，在浏览器端渲染EPUB文件的JavaScript库，提供通用的电子书功能界面（如渲染、持久和分页）不需要开发专用的应用程序或插件。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
