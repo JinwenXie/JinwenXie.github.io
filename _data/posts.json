@@ -1,11 +1,20 @@
 [
 	{
+		"title": "禁止ios上浏览器上拉下拉回弹效果",
+		"summary": "关于ios上微信浏览器或者其他浏览器会有上拉下拉的的回弹效果，网上找了许多资料，都不是很靠谱，试过多种方法后，本编文章的比较靠谱，所以归纳下。",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/js.png",
+		"url": "https://jinwenxie.github.io/2019/05/10/禁止ios上浏览器上拉下拉回弹效果.html",
+		"date": "2019-05-10",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "vueRouter中的导航钩子",
 		"summary": "vue-router 的导航钩子，主要用来作用是拦截导航，让他完成跳转或取消。有三种方式可以植入路由导航过程中：全局的、单个路由独享的、组件级的",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/vue/vue.png",
 		"url": "https://jinwenxie.github.io/2019/05/08/vueRouter中的导航钩子.html",
-		"date": "2019-05-18",
+		"date": "2019-05-08",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
