@@ -55,6 +55,7 @@
 
 至于他的参数的使用，和全局前置守卫是一样的<br>
 
+
 #### 组建内的导航钩子
 
 组件内的导航钩子主要有这三种：**beforeRouteEnter、beforeRouteUpdate、beforeRouteLeave。**他们是直接在路由组件内部直接进行定义的<br>
