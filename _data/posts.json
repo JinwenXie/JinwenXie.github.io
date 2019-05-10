@@ -1,5 +1,14 @@
 [
 	{
+		"title": "理解CSS中的BFC布局",
+		"summary": "所谓的BFC就是css布局的一个概念，是一块区域，一个环境。BFC 可以简单的理解为某个元素的一个 CSS 属性，只不过这个属性不能被开发者显式的修改，拥有这个属性的元素对内部元素和外部元素会表现出一些特性，这就是BFC。",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/css.png",
+		"url": "https://jinwenxie.github.io/2019/05/12/理解CSS中的BFC布局.html",
+		"date": "2019-05-12",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "禁止ios上浏览器上拉下拉回弹效果",
 		"summary": "关于ios上微信浏览器或者其他浏览器会有上拉下拉的的回弹效果，网上找了许多资料，都不是很靠谱，试过多种方法后，本编文章的比较靠谱，所以归纳下。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
