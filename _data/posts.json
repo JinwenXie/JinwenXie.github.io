@@ -1,5 +1,14 @@
 [
 	{
+		"title": "三栏布局之圣杯布局与双飞翼布局",
+		"summary": "圣杯布局和双飞翼布局都是实现三栏布局的方法，左右定宽，中间自适应，是很常见的布局，其原理差不多，都有负边距的应用",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/css.png",
+		"url": "https://jinwenxie.github.io/2019/05/15/三栏布局之圣杯布局与双飞翼布局.html",
+		"date": "2019-05-15",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "理解CSS中的BFC布局",
 		"summary": "所谓的BFC就是css布局的一个概念，是一块区域，一个环境。BFC 可以简单的理解为某个元素的一个 CSS 属性，只不过这个属性不能被开发者显式的修改，拥有这个属性的元素对内部元素和外部元素会表现出一些特性，这就是BFC。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
