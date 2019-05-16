@@ -1,5 +1,8 @@
 ##  欢迎访问谢金文的博客！[JinwenXie.github.io](https://JinwenXie.github.io)
 
+- [2019-05-16]  [JavaScript常用算法集](https://jinwenxie.github.io/2019/05/16/JavaScript常用算法集.html) *[持续更新]*
+<br>
+
 - [2019-05-15]  [三栏布局之圣杯布局与双飞翼布局](https://jinwenxie.github.io/2019/05/15/三栏布局之圣杯布局与双飞翼布局.html)
 <br>
 

@@ -1,5 +1,14 @@
 [
 	{
+		"title": "JavaScript常用算法集",
+		"summary": "记录工作学习中比较常用的js算法：函数防抖和函数节流、手写vue中双向数据绑定的v-module方法、数组的随机排序、冒泡排序、图片懒加载、去掉字符串中的空格、获取url地址中的参数。。。",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/js.png",
+		"url": "https://jinwenxie.github.io/2019/05/16/JavaScript常用算法集.html",
+		"date": "2019-05-16",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "三栏布局之圣杯布局与双飞翼布局",
 		"summary": "圣杯布局和双飞翼布局都是实现三栏布局的方法，左右定宽，中间自适应，是很常见的布局，其原理差不多，都有负边距的应用",
 		"authorImage": "../static/img/posts/mine_1.jpg",
