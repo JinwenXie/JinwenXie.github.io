@@ -1,5 +1,14 @@
 [
 	{
+		"title": "JavaScript中的深浅拷贝",
+		"summary": "所谓深浅拷贝，浅拷贝的意思就是，你只是复制了对象数据的引用，并没有把内存里的值另外复制一份，那么深拷贝就是把值完整地复制一份新的值。",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/js.png",
+		"url": "https://jinwenxie.github.io/2019/05/22/JavaScript中的深浅拷贝.html",
+		"date": "2019-05-22",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
 		"title": "LeetCode解体集(1-10)",
 		"summary": "记录自己在LeetCode上使用JavaScript解的题目",
 		"authorImage": "../static/img/posts/mine_1.jpg",
