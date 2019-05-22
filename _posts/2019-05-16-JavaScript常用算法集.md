@@ -71,6 +71,7 @@ debounce-函数防抖：将一个弹簧按下，继续加压，继续按下，�
 
     let arr = [1,2,3,4,5,6,7,8,9,10];
     function randomSort(arr) {
+	  if (!arr) return false;	
       for(let i=0, len=arr.length; i<len; i++) {
         let index = parseInt(Math.random() * len);
         let temp = arr[index];
@@ -117,7 +118,7 @@ debounce-函数防抖：将一个弹簧按下，继续加压，继续按下，�
 
 	  let arr = [5,8,9,7,6,3,2,1,10,4];
 	  function bubble(arr) {
-	    if (!arr && arr.length <= 1) return false;
+	    if (!arr) return false;
 	    for (let i = arr.length - 1; i > 0; i--) {
 	      // 从 0 到 `length - 1` 遍历
 	      for (let j = 0; j < i; j++) {
@@ -217,3 +218,17 @@ debounce-函数防抖：将一个弹簧按下，继续加压，继续按下，�
 	      return false;
 	    }
 	    console.log(getUrlAgt('id'));
+
+### 9.数组去重
+
+      let arr = [1,2,3,3,4,5,4,5,6,7,8,4,7,9]
+      function reviewSort(arr) {
+        if (!arr) return false
+        let newArr = []
+        for (let i = 0, len = arr.length; i < len; i++) {
+          if (!newArr.includes(arr[i])) newArr.push(arr[i])
+        }
+        return newArr
+      }
+      console.log(reviewSort(arr))
+  
