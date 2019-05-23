@@ -6,7 +6,7 @@
 - 重排序方法——reverse()方法、sort()方法
 - 操作方法——concat()方法、slice()方法、splice()方法
 - 位置方法——indexOf()方法、lastIndexOf()方法
-- 迭代方法——every()方法、filter()方法、forEach()方法、map()方法、some()方法
+- 迭代方法——every()方法、filter()方法、forEach()方法、map()方法、some()方法、includes()方法
 - 归并方法——reduce()方法、reduceRight()方法
 
 #### 转换方法：
@@ -175,6 +175,7 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 - filter()方法对数组中的每一项运行给定的函数，返回该函数会返回true的项组成的数组。
 - map()方法对数组中的每一项运行给定的函数，返回每次函数调用的结果组成的数组。
 - some()方法对数组中的每一项运行给定的函数，如果该函数对一项返回true，则返回true。（相当于逻辑或）
+- includes()方法用来判断一个数组是否包含一个指定的值，如果是返回 true，否则false。
 
 具体看下列例子：
     
@@ -229,6 +230,12 @@ ECMAScript 5为数组定义了五个迭代方法，每种方法接受两个参�
 	console.log(result);    // true
 
 ![](https://i.imgur.com/HiNL5CX.png)<br>
+
+	// includes()方法用来判断一个数组是否包含一个指定的值，如果是返回 true，否则false。
+	let nums = [1, 2, 3, 4, 5];
+	
+	console.log(nums.includes(2))	// true
+	conosle.log(nums.includes(6))	// false
 
 #### 归并方法：
 
