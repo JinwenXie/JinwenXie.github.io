@@ -113,25 +113,36 @@ debounce-函数防抖：将一个弹簧按下，继续加压，继续按下，�
     console.log(arr); 
 
 
-### 5.冒泡排序
-冒泡排序的原理如下，从第一个元素开始，把当前元素和下一个索引元素进行比较。如果当前元素大，那么就交换位置，重复操作直到比较到最后一个元素，那么此时最后一个元素就是该数组中最大的数。下一轮重复以上操作，但是此时最后一个元素已经是最大数了，所以不需要再比较最后一个元素，只需要比较到 length - 1 的位置。<br>
+### 5.数组排序
+方法一(冒泡排序)：<br>
 
-	  let arr = [5,8,9,7,6,3,2,1,10,4];
-	  function bubble(arr) {
-	    if (!arr) return false;
-	    for (let i = arr.length - 1; i > 0; i--) {
-	      // 从 0 到 `length - 1` 遍历
-	      for (let j = 0; j < i; j++) {
-	        if (arr[j] > arr[j + 1]) {
-	          let temp = arr[j + 1];
-	          arr[j + 1] = arr[j];
-	          arr[j] = temp;
-	        }
+	// 冒泡排序的原理如下，从第一个元素开始，把当前元素和下一个索引元素进行比较。如果当前元素大，那么就交换位置，重复操作直到比较到最后一个元素，那么此时最后一个元素就是该数组中最大的数。下一轮重复以上操作，但是此时最后一个元素已经是最大数了，所以不需要再比较最后一个元素，只需要比较到 length - 1 的位置。
+	let arr = [5,8,9,7,6,3,2,1,10,4];
+	function bubbleSort(arr = []) {
+	  let len =arr.length
+	  if (len === 0) return
+	  for (let i = len - 1; i > 0; i--) {
+	    for (let j = 0; j < i; j++) {
+	      if (arr[j] > arr[i]) {
+	        // [arr[i], arr[j]] = [arr[j], arr[i]]
+	        arr[i] = [arr[j], [arr[j] = arr[i]]][0]
 	      }
 	    }
-	    return arr;
 	  }
-	  console.log(bubble(arr));
+	  return arr
+	}
+	// console.log(bubbleSort(arr));
+	
+方法二(sort方法)：<br>
+
+	function sortArr(arr = []) {
+	  if (arr.length === 0) return
+	  return arr.sort((item1, item2) => {
+	    return item1 - item2
+	  })
+	}
+	// console.log(sortArr(arr));
+
 
 ### 6、图片懒加载（监听滚动事件以及使用函数节流的方法）
 将页面中的img标签src指向一张小图片或者src为空，然后定义data-src（这个属性可以自定义命名，我才用data-src）属性指向真实的图片。src指向一张默认的图片，否则当src为空时也会向服务器发送一次请求。可以指向loading的地址。<br>
@@ -220,15 +231,22 @@ debounce-函数防抖：将一个弹簧按下，继续加压，继续按下，�
 	    console.log(getUrlAgt('id'));
 
 ### 9.数组去重
+方法一: <br>
 
-      let arr = [1,2,3,3,4,5,4,5,6,7,8,4,7,9]
-      function reviewSort(arr) {
-        if (!arr) return false
-        let newArr = []
-        for (let i = 0, len = arr.length; i < len; i++) {
-          if (!newArr.includes(arr[i])) newArr.push(arr[i])
-        }
-        return newArr
-      }
-      console.log(reviewSort(arr))
-  
+	let arr = [1,2,3,3,4,5,4,5,6,7,8,4,7,9]
+	function reviewSort(arr = []) {
+	  let len = arr.length
+	  if (len === 0) return
+	  let newArr = []
+	  for (let i = 0; i < len; i++) {
+	    if (!newArr.includes(arr[i])) newArr.push(arr[i])
+	  }
+	  return newArr
+	}
+	console.log(reviewSort(arr))
+
+方法二(es6方法): <br>
+
+	let arr = [1,2,20,3,3,4,5,4,5,6,7,8,4,7,9]
+	let newArr = [...new Set(arr)]
+	console.log(newArr)
