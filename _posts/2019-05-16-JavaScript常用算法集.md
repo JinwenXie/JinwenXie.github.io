@@ -189,8 +189,8 @@ debounce-函数防抖：将一个弹簧按下，继续加压，继续按下，�
 方法一：<br>
 
 	  let str = ' abc de  g ';
-	  function trim(str) {
-	    if (!str || str.length <= 0 || (typeof str != 'string')) return false;
+	  function trim(str = '') {
+	    if (str.length === 0) return;
 	    let reg = /\s+/g;
 	    str = str.replace(reg,'');
 	    return str;
@@ -199,15 +199,19 @@ debounce-函数防抖：将一个弹簧按下，继续加压，继续按下，�
 
 方法二：<br>
 
-	  function trimString(str) {
-	    if (!str || str.length <= 0 || (typeof str != 'string')) return false;
-	    let arr = str.split('');
-	    arr = arr.filter(item => {
-	      return item != ' ';
-	    });
-	    return arr.join('');
-	  }
-	  console.log(trimString(str));
+	let str = ' abc de  g ';
+	// filter() 方法创建一个新的数组，新数组中的元素是通过检查指定数组中符合条件的所有元素。
+	// 注意： filter() 不会对空数组进行检测。
+	// 注意： filter() 不会改变原始数组。
+	function trimString(str = '') {
+	  if (str.length === 0) return
+	  let arr = str.split('')
+	  arr = arr.filter(item => {
+	    return item != ' '
+	  })
+	  return arr.join('')
+	}
+	console.log(trimString(str));
 
 ### 8.获取url地址上的参数
 	
