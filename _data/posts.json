@@ -4,17 +4,17 @@
 		"summary": "所谓深浅拷贝，浅拷贝的意思就是，你只是复制了对象数据的引用，并没有把内存里的值另外复制一份，那么深拷贝就是把值完整地复制一份新的值。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/js.png",
-		"url": "https://jinwenxie.github.io/2019/05/22/JavaScript中的深浅拷贝.html",
-		"date": "2020-05-22",
+		"url": "https://jinwenxie.github.io/2020/04/18/JavaScript中的深浅拷贝.html",
+		"date": "2020-04-18",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
-		"title": "LeetCode解体集(1-10)",
+		"title": "LeetCode解题集(1-10)",
 		"summary": "记录自己在LeetCode上使用JavaScript解的题目",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/css.png",
-		"url": "https://jinwenxie.github.io/2019/05/20/LeetCode解体集(1-10).html",
-		"date": "2019-05-20",
+		"url": "https://jinwenxie.github.io/2020/04/03/LeetCode解题集(1-10).html",
+		"date": "2020-04-03",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -22,8 +22,8 @@
 		"summary": "记录工作学习中比较常用的js算法：函数防抖和函数节流、手写vue中双向数据绑定的v-module方法、数组的随机排序、冒泡排序、图片懒加载、去掉字符串中的空格、获取url地址中的参数。。。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/js.png",
-		"url": "https://jinwenxie.github.io/2019/05/16/JavaScript常用算法集.html",
-		"date": "2019-05-16",
+		"url": "https://jinwenxie.github.io/2020/03/16/JavaScript常用算法集.html",
+		"date": "2020-03-16",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -31,8 +31,8 @@
 		"summary": "圣杯布局和双飞翼布局都是实现三栏布局的方法，左右定宽，中间自适应，是很常见的布局，其原理差不多，都有负边距的应用",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/css.png",
-		"url": "https://jinwenxie.github.io/2019/05/15/三栏布局之圣杯布局与双飞翼布局.html",
-		"date": "2019-05-15",
+		"url": "https://jinwenxie.github.io/2020/03/01/三栏布局之圣杯布局与双飞翼布局.html",
+		"date": "2020-03-01",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -40,8 +40,8 @@
 		"summary": "所谓的BFC就是css布局的一个概念，是一块区域，一个环境。BFC 可以简单的理解为某个元素的一个 CSS 属性，只不过这个属性不能被开发者显式的修改，拥有这个属性的元素对内部元素和外部元素会表现出一些特性，这就是BFC。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/css.png",
-		"url": "https://jinwenxie.github.io/2019/05/12/理解CSS中的BFC布局.html",
-		"date": "2019-05-12",
+		"url": "https://jinwenxie.github.io/2020/02/12/理解CSS中的BFC布局.html",
+		"date": "2020-02-12",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -49,8 +49,8 @@
 		"summary": "关于ios上微信浏览器或者其他浏览器会有上拉下拉的的回弹效果，网上找了许多资料，都不是很靠谱，试过多种方法后，本编文章的比较靠谱，所以归纳下。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/js.png",
-		"url": "https://jinwenxie.github.io/2019/05/10/禁止ios上浏览器上拉下拉回弹效果.html",
-		"date": "2019-05-10",
+		"url": "https://jinwenxie.github.io/2020/02/01/禁止ios上浏览器上拉下拉回弹效果.html",
+		"date": "2020-02-01",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -58,8 +58,8 @@
 		"summary": "vue-router 的导航钩子，主要用来作用是拦截导航，让他完成跳转或取消。有三种方式可以植入路由导航过程中：全局的、单个路由独享的、组件级的",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/vue/vue.png",
-		"url": "https://jinwenxie.github.io/2019/05/08/vueRouter中的导航钩子.html",
-		"date": "2019-05-08",
+		"url": "https://jinwenxie.github.io/2019/12/28/vueRouter中的导航钩子.html",
+		"date": "2019-12-28",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -67,8 +67,8 @@
 		"summary": "最近在使用vue来做一个电子书阅读器，直接网上请求电子书不太实际，就利用nginx来配置一个静态的资源服务器来请求本地的文件。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/nginx/nginx.png",
-		"url": "https://jinwenxie.github.io/2019/04/19/ngnix静态资源服务器的配置.html",
-		"date": "2019-04-19",
+		"url": "https://jinwenxie.github.io/2019/12/01/ngnix静态资源服务器的配置.html",
+		"date": "2019-12-01",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -76,8 +76,8 @@
 		"summary": "epub.js是支持跨多个设备的，在浏览器端渲染EPUB文件的JavaScript库，提供通用的电子书功能界面（如渲染、持久和分页）不需要开发专用的应用程序或插件。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/epubjs.png",
-		"url": "https://jinwenxie.github.io/2019/04/18/epubjs阅读器安装和使用.html",
-		"date": "2019-04-18",
+		"url": "https://jinwenxie.github.io/2019/11/18/epubjs阅读器安装和使用.html",
+		"date": "2019-11-18",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -85,8 +85,8 @@
 		"summary": "函数防抖（debounce）和函数节流（throttle）都是为了缓解函数频繁调用，它们相似，但有区别。函数防抖是间隔超过一定时间后才会执行，函数节流是一定时间段内只执行一次。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/debounceThrottle.png",
-		"url": "https://jinwenxie.github.io/2019/04/16/防抖与节流.html",
-		"date": "2019-04-16",
+		"url": "https://jinwenxie.github.io/2019/10/16/防抖与节流.html",
+		"date": "2019-10-16",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -94,8 +94,8 @@
 		"summary": "在JavaScript中，call、apply和bind 是Function对象自带的三个方法，这三个方法的主要作用是改变函数中的this指向。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/js.png",
-		"url": "https://jinwenxie.github.io/2019/04/08/apply&call&bind的区别.html",
-		"date": "2019-04-08",
+		"url": "https://jinwenxie.github.io/2019/09/28/apply&call&bind的区别.html",
+		"date": "2019-09-28",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -103,8 +103,26 @@
 		"summary": "由于安全的原因，浏览器做了很多方面的工作，由此也就引入了一系列的跨域问题。跨域并非浏览器限制了发起跨站请求，而是跨站请求可以正常发起，但是返回结果被浏览器拦截了。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/js_1.png",
-		"url": "https://jinwenxie.github.io/2019/03/22/js跨域请求的4种解决方式.html",
-		"date": "2019-03-22",
+		"url": "https://jinwenxie.github.io/2019/09/01/js跨域请求的4种解决方式.html",
+		"date": "2019-09-01",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
+		"title": "git操作之ssh转https",
+		"summary": "一直以来，在公司使用ssh作为github提交与下载的我，今天突然给我报了这个错误“ssh_exchange_identification: read: Connection reset by peer”;遗憾的是，我围绕着这些原因试过了所有方法之后仍然解决不了我的问题；没办法，只能绕路走，ssh提交不行，那我就换https呗，只要能通罗马就行！",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/git.png",
+		"url": "https://jinwenxie.github.io/2019/08/19/git操作之ssh转https.html",
+		"date": "2019-08-19",
+		"author": "Gavin(xiejinwen)"
+	},
+	{
+		"title": "interview",
+		"summary": "前端面试集锦",
+		"authorImage": "../static/img/posts/mine_1.jpg",
+		"articleImage": "../static/img/posts/js.png",
+		"url": "https://jinwenxie.github.io/2019/08/01/interview.html",
+		"date": "2019-08-01",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -112,8 +130,8 @@
 		"summary": "块级作用域：变量在离开定义的块级代码后立即被回收。即“ 花括号中间的部分是一个块级作用域”。例如：for 循环、 if 逻辑判断、while 循环等语句后面的花括号都是一个块级作用域。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/es6.png",
-		"url": "https://jinwenxie.github.io/2019/01/24/ES6系列之es5作用域与es6块级作用域.html",
-		"date": "2019-01-24",
+		"url": "https://jinwenxie.github.io/2019/07/24/ES6系列之es5作用域与es6块级作用域.html",
+		"date": "2019-07-24",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -121,8 +139,8 @@
 		"summary": "ES6大力度地更新了函数特性，在ES5的基础上进行了许多改进，使用JS编程可以更少出错，同时也更加灵活。",
 		"authorImage": "../static/img/posts/mine_1.jpg",
 		"articleImage": "../static/img/posts/es6.png",
-		"url": "https://jinwenxie.github.io/2019/01/23/ES6系列之函数的扩展.html",
-		"date": "2019-01-23",
+		"url": "https://jinwenxie.github.io/2019/07/01/ES6系列之函数的扩展.html",
+		"date": "2019-07-01",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -130,8 +148,8 @@
 		"summary": "ES6对字符串新增了一些函数和操作规范，使得开发者对字符串的操作更加方便，以往需要借助其他javascript代码才能实现的效果，现在利用这些函数即可快速实现。",
 		"authorImage": "../static/img/posts/mine_3.jpg",
 		"articleImage": "../static/img/posts/es6.png",
-		"url": "https://jinwenxie.github.io/2019/01/21/ES6系列之字符串的扩展.html",
-		"date": "2019-01-21",
+		"url": "https://jinwenxie.github.io/2019/06/21/ES6系列之字符串的扩展.html",
+		"date": "2019-06-21",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -139,8 +157,8 @@
 		"summary": "ES5中声明变量用var，ES6中用let声明变量，const声明常量。",
 		"authorImage": "../static/img/posts/mine_3.jpg",
 		"articleImage": "../static/img/posts/es6.png",
-		"url": "https://jinwenxie.github.io/2019/01/20/ES6系列之let&const.html",
-		"date": "2019-01-20",
+		"url": "https://jinwenxie.github.io/2019/05/20/ES6系列之let&const.html",
+		"date": "2019-05-20",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -148,8 +166,8 @@
 		"summary": "所谓递归，是当一个函数调用自身，并且该调用做了同样的事情，这个循环持续到基本条件满足时，调用循环返回",
 		"authorImage": "../static/img/posts/mine_3.jpg",
 		"articleImage": "../static/img/recursion/cover.jpg",
-		"url": "https://jinwenxie.github.io/2019/01/17/彻底吃透JavaScript中的递归.html",
-		"date": "2019-01-17",
+		"url": "https://jinwenxie.github.io/2019/04/17/彻底吃透JavaScript中的递归.html",
+		"date": "2019-04-17",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -157,8 +175,8 @@
 		"summary": "本文着重于记录一些自己在工作或学习过程中实现的一些比较常见的移动端效果，以便自己将来再次使用的时候方便",
 		"authorImage": "../static/img/posts/mine_3.jpg",
 		"articleImage": "../static/img/posts/js_1.png",
-		"url": "https://jinwenxie.github.io/2019/01/16/移动端一些常见的功能效果.html",
-		"date": "2019-01-16",
+		"url": "https://jinwenxie.github.io/2019/03/16/移动端一些常见的功能效果.html",
+		"date": "2019-03-16",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
@@ -288,30 +306,12 @@
 		"author": "Gavin(xiejinwen)"
 	},
 	{
-		"title": "interview",
-		"summary": "前端面试集锦",
-		"authorImage": "../static/img/posts/mine_1.jpg",
-		"articleImage": "../static/img/posts/js.png",
-		"url": "https://jinwenxie.github.io/2019/02/28/interview.html",
-		"date": "2018-11-09",
-		"author": "Gavin(xiejinwen)"
-	},
-	{
 		"title": "vscode的安装和使用",
 		"summary": "之前的开发过程中一直用的是sublimeText3和webstorm，现在尝试使用下VS Code；本文介绍Vs Code的软件安装和一些插件的介绍",
 		"authorImage": "../static/img/posts/mine_3.png",
 		"articleImage": "../static/img/posts/vscode.jpg",
 		"url": "https://jinwenxie.github.io/2018/11/08/vscode的安装和使用.html",
 		"date": "2018-11-08",
-		"author": "Gavin(xiejinwen)"
-	},
-	{
-		"title": "git操作之ssh转https",
-		"summary": "一直以来，在公司使用ssh作为github提交与下载的我，今天突然给我报了这个错误“ssh_exchange_identification: read: Connection reset by peer”;遗憾的是，我围绕着这些原因试过了所有方法之后仍然解决不了我的问题；没办法，只能绕路走，ssh提交不行，那我就换https呗，只要能通罗马就行！",
-		"authorImage": "../static/img/posts/mine_1.jpg",
-		"articleImage": "../static/img/posts/git.png",
-		"url": "https://jinwenxie.github.io/2019/03/19/git操作之ssh转https.html",
-		"date": "2018-11-06",
 		"author": "Gavin(xiejinwen)"
 	},
 	{
